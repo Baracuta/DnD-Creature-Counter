@@ -18,3 +18,4 @@ Things I want to be able to do:
     2. Add/remove creatures quickly
         - Duplicate an existing creature
         - Create trackers for new creatures, quickly
+    3. Track conditions/buffs/debuffs applied to individual creatures
