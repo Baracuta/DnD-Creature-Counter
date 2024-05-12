@@ -13,9 +13,13 @@ Things I want to be able to do:
     1. Track Multiple Creatures
         For each creature:
             1. Hitpoints
+                - Healthbars/Damage Bars/Options for both!
+                - Add/subtract features
             2. Armour Class
             3. Any applied buffs/debuffs/concentration
     2. Add/remove creatures quickly
         - Duplicate an existing creature
         - Create trackers for new creatures, quickly
     3. Track conditions/buffs/debuffs applied to individual creatures
+    4. Drag/Drop creature blocks to re-arrange them as I need
+    
