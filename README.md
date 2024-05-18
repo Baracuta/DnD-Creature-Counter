@@ -1,6 +1,9 @@
 # DnD-Creature-Counter
-Used to track multiple creatures' stats at a glance in Dungeons and Dragons
 
+## Overview
+A tool I can use to track multiple creatures at a glance when playing Dungeons and Dragons.
+
+## Description
 The idea is this: a tool which I can use and access as a webpage that gives me multiple input criteria. Things like attacks, the damage of the attack, various modifiers, all that stuff that is necessary to track for certain monsters, with the ability to track multiple of each critter I add. That way, I can easily track multiple creatures at once. Their hit-point values, Armour Class, etc. I'd be able to roll dice for them.
 
 Design Principles/Function that form should follow
@@ -22,4 +25,11 @@ Things I want to be able to do:
         - Create trackers for new creatures, quickly
     3. Track conditions/buffs/debuffs applied to individual creatures
     4. Drag/Drop creature blocks to re-arrange them as I need
+
+## Motivation
+
+
+## Visual Aid
+    <link>(<Visual Resources/DnD Creature Counter Plan.pdf>)
     
+  [text](<Visual Resources/DnD Creature Counter Plan.pdf>)
