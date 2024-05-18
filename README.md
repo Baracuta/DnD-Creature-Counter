@@ -30,6 +30,7 @@ Things I want to be able to do:
 
 
 ## Visual Aid
-    <link>(<Visual Resources/DnD Creature Counter Plan.pdf>)
+    
+    <img>(<Visual Resources/DnD Creature Counter Plan.pdf>)
     
   [text](<Visual Resources/DnD Creature Counter Plan.pdf>)
