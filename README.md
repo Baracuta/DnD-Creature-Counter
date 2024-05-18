@@ -58,4 +58,6 @@ I love playing D&D, both as an Adventurer and as the Dungeon Master. When I'm DM
 9.When the unlock button is clicked, it returns to the lock symbol and the backfill of the boxes change. Once again, they will be locked in their positions.
 <img src="Visual Resources/DnD Creature Counter 9.png">
 
+These are the most basic functions of the Creature Counter. There are several planned features not shown here, such as the ability to generate a duplicate of an already existing creature, as well as the ability to add and subtract HP as a function rather than manually changing the number. Such as it is, this would be a start!
+
   [Full slideshow here](<Visual Resources/DnD Creature Counter Plan.pdf>)
