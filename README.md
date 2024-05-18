@@ -27,7 +27,7 @@ Things I want to be able to do:
     4. Drag/Drop creature blocks to re-arrange them as I need
 
 ## Motivation
-
+I love playing D&D, both as an Adventurer and as the Dungeon Master. When I'm DMing, I find there are many tools that let me see the abilities and stats of creatures in combat, but none that actually let me record any effects or spells placed upon them. Moreso, there are none that conveniently let me track how much damage many different creatures have sustained during combat. As such, I have decided to undertake creating this myself!
 
 ## Visual Aid
     
