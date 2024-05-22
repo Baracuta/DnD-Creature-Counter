@@ -25,6 +25,7 @@ Things I want to be able to do:
         - Create trackers for new creatures, quickly
     3. Track conditions/buffs/debuffs applied to individual creatures
     4. Drag/Drop creature blocks to re-arrange them as I need
+    5. It should have support for mobile phones and tablets
 
 ## Motivation
 I love playing D&D, both as an Adventurer and as the Dungeon Master. When I'm DMing, I find there are many tools that let me see the abilities and stats of creatures in combat, but none that actually let me record any effects or spells placed upon them. Moreso, there are none that conveniently let me track how much damage many different creatures have sustained during combat. As such, I have decided to undertake creating this myself!
