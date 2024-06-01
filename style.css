@@ -9,4 +9,18 @@ header{
     p{
         font-size: 20px;
     }
+
+    border: solid black;
+}
+
+main{
+    border: solid black;
+}
+
+.side_bar{
+    border: solid black;
+}
+
+.creature_table{
+    border: solid black;
 }
