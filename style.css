@@ -14,7 +14,9 @@ header{
 }
 
 main{
-    border: solid black;
+    display: flex;
+    border: solid yellow;
+    justify-content: flex-start;
 }
 
 .side_bar{
