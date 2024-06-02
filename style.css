@@ -21,6 +21,7 @@ main{
 
 .side_bar{
     border: solid green;
+    margin-right: 5%;
 }
 
 .creature_table{
