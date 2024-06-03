@@ -26,6 +26,8 @@ main{
 
 .creature_table{
     border: solid blue;
+    display: flex;
+    justify-content: space-between;
 }
 
 .critterBox{
