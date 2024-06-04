@@ -2,7 +2,8 @@ header{
     justify-content: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: solid black;
-
+    color: white;
+    background-color: gray;
     h1{
         font-size: 50px;
     }
@@ -12,6 +13,7 @@ header{
     }
 
 }
+
 
 main{
     display: flex;
