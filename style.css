@@ -4,6 +4,7 @@ header{
     border: solid black;
     color: white;
     background-color: gray;
+    padding: 2%;
     h1{
         font-size: 50px;
     }
@@ -15,7 +16,7 @@ header{
 }
 
 body{
-    background-image: url("Visual Resources/Border 1.png");
+    background-image: url("Visual Resources/Border 2.png");
     background-size: cover;
     background-color: gray;
     margin: 4%;
