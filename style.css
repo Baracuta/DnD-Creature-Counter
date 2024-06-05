@@ -3,7 +3,6 @@ header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: solid black;
     color: white;
-    background-color: gray;
     padding: 2%;
     h1{
         font-size: 50px;
@@ -17,7 +16,7 @@ header{
 
 body{
     background-image: url("Visual Resources/Border 2.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-color: gray;
     margin: 4%;
 }
