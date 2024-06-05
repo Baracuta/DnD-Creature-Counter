@@ -14,7 +14,8 @@ header{
 
 }
 
-html{
+body{
+    size: 100% 100%;
     background-image: url("Visual Resources/Border 2.png");
     background-size: 100% 100%;
     background-color: gray;
