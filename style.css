@@ -16,11 +16,11 @@ header{
 
 body{
     min-height: 100vh;
-    size: 100% 100%;
     background-image: url("Visual Resources/Border 2.png");
     background-size: 100% 100%;
     background-color: gray;
-    margin: 4%;
+    margin-left: 4%;
+    margin-right:4%;
 }
 
 main{
