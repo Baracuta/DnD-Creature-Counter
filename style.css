@@ -16,8 +16,8 @@ header{
 
 body{
     background-image: url("Visual Resources/Border 1.png");
-    background-size: contain;
-    background-color: rgb(77, 77, 77);
+    background-size: cover;
+    background-color: gray;
     margin: 4%;
 }
 
