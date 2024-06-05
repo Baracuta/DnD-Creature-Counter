@@ -5,7 +5,7 @@ header{
     color: white;
     padding-left: 2%;
     padding-right: 2%;
-    
+
     h1{
         font-size: 50px;
     }
@@ -18,8 +18,9 @@ header{
 
 body{
     min-height: 100vh;
-    background-image: url("Visual Resources/Border 2.png");
-    background-size: 100% 100%;
+    background-image: url("Visual Resources/Emblem 1 2.png");
+    background-size: contain;
+    background-position: center;
     background-color: gray;
     margin-left: 4%;
     margin-right:4%;
