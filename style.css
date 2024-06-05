@@ -14,6 +14,10 @@ header{
 
 }
 
+body{
+    background-image: url("Visual Resources/Border 1.png");
+    margin: 4%;
+}
 
 main{
     display: flex;
