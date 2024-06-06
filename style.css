@@ -43,7 +43,7 @@ main{
         height: 2%;
         width: 2%;
         img{
-            size: contain;
+            size: 2% 2%;
         }
     }
 }
