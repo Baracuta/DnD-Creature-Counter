@@ -46,6 +46,7 @@ main{
     max-width: 6%;
     .add_button{
         border: solid black;
+        justify-content: center;
         img{
             max-width: 80%;
             max-height: 50%;
