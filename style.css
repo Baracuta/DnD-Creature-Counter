@@ -79,8 +79,8 @@ main{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        max-width: 30%;
-        text-wrap: wrap;
+        max-width: 20%;
+        text-wrap:wrap;
 
         .healthButton{
             size: 30% 20%;
