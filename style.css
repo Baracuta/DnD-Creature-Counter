@@ -40,10 +40,14 @@ main{
     margin-right: 2%;
 
     .add_button{
-        height: 2%;
-        width: 2%;
+        height: 28px;
+        width: 18px;
+        max-width: 18px;
+        max-height: 28px;
         img{
-            size: 2% 2%;
+            display:block;
+            max-width: 10px;
+            max-height: 10px;
         }
     }
 }
