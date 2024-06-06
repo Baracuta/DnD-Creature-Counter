@@ -22,6 +22,7 @@ body{
     background-size: contain;
     background-position: center;
     background-color: gray;
+    background-repeat: no-repeat;
     margin-left: 4%;
     margin-right:4%;
 }
