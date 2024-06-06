@@ -76,17 +76,17 @@ main{
         justify-content: space-between;
 
         .healthButton{
-            size: 30% 30%;
+            size: 30% 20%;
             border: solid black;
         }
 
         .notesButton{
-            size: 30% 30%;
+            size: 30% 20%;
             border: solid black;
         }
 
         .deleteButton{
-            size: 30% 30%;
+            size: 30% 20%;
             border: solid black;
         }
     }
