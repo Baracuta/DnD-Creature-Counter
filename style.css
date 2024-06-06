@@ -58,6 +58,8 @@ main{
     border: solid blue;
     display: flex;
     justify-content: space-between;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .critterBox{
