@@ -25,6 +25,8 @@ body{
     background-repeat: no-repeat;
     margin-left: 4%;
     margin-right:4%;
+    border: solid black;
+    border-width: 3px;
 }
 
 main{
