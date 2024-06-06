@@ -33,32 +33,32 @@ I love playing D&D, both as an Adventurer and as the Dungeon Master. When I'm DM
 ## Visual Aid
     
 1.When you boot up the creature counter, you'll be faced with 12 slots.
-<img src="Visual Resources/DnD Creature Counter 1.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 1.png">
 
 2.Clicking the "Add" button will add a blank creature slate in the first available slot. The DamageTaken, Creature Name, and Max HP option can all be edited, either after generation or as a prompt when adding a new creature.
-<img src="Visual Resources/DnD Creature Counter 2.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 2.png">
 
 3.Clicking the checklist will swap the health display with a list section where text may be added as notes. The image has more detail on its use.
-<img src="Visual Resources/DnD Creature Counter 3.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 3.png">
 
 4.Clicking the heart hides the list section, bringing back the health display.
-<img src="Visual Resources/DnD Creature Counter 4.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 4.png">
 
 5.Clicking the add creature button again will do so in the next available slot, moving through the rows top to bottom, and the columns from left to right.
-<img src="Visual Resources/DnD Creature Counter 5.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 5.png">
 
 6.Clicking the lock button will switch the icon to an open lock, and the backfill of the creature boxes will change. This is to show a new interaction with the boxes.
-<img src="Visual Resources/DnD Creature Counter 6.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 6.png">
 
 7.That new interaction will be the ability to click and drag on those boxes to re-arrange them. This will allow for easier organization and grouping of specific creatures, without having to worry about in what order they were added.
-<img src="Visual Resources/DnD Creature Counter 7.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 7.png">
 
 8.This image demonstrates the same feature as above.
-<img src="Visual Resources/DnD Creature Counter 8.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 8.png">
 
 9.When the unlock button is clicked, it returns to the lock symbol and the backfill of the boxes change. Once again, they will be locked in their positions.
-<img src="Visual Resources/DnD Creature Counter 9.png">
+<img src="Visual Resources/Demo Folder/DnD Creature Counter 9.png">
 
 These are the most basic functions of the Creature Counter. There are several planned features not shown here, such as the ability to generate a duplicate of an already existing creature, as well as the ability to add and subtract HP as a function rather than manually changing the number. Such as it is, this would be a start!
 
-  [Full slideshow here](<Visual Resources/DnD Creature Counter Plan.pdf>)
+  [Full slideshow here](<Visual Resources/Demo Folder/DnD Creature Counter Plan.pdf>)
