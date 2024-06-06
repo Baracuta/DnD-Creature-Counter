@@ -38,6 +38,14 @@ main{
 .side_bar{
     border: solid green;
     margin-right: 2%;
+
+    .add_button{
+        height: 2%;
+        width: 2%;
+        img{
+            size: contain;
+        }
+    }
 }
 
 .creature_table{
