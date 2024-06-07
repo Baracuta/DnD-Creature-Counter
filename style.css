@@ -83,17 +83,14 @@ main{
         text-wrap:wrap;
 
         .healthButton{
-            size: 30% 20%;
             border: solid black;
         }
 
         .notesButton{
-            size: 30% 20%;
             border: solid black;
         }
 
         .deleteButton{
-            size: 30% 20%;
             border: solid black;
         }
     }
