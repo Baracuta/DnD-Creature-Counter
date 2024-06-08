@@ -80,18 +80,20 @@ main{
         flex-direction: row;
         justify-content: space-between;
         max-width: 20%;
-        text-wrap:wrap;
 
         .healthButton{
             border: solid black;
+            text-wrap:wrap;
         }
 
         .notesButton{
             border: solid black;
+            text-wrap:wrap;
         }
 
         .deleteButton{
             border: solid black;
+            text-wrap:wrap;
         }
     }
 
