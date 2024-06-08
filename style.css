@@ -73,13 +73,14 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    max-width: 20%;
+    max-width: 25%;
+    width: 25%;
 
     .critterButtons{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        max-width: 20%;
+        max-width: 30%;
 
         .healthButton{
             border: solid black;
