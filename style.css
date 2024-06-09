@@ -100,4 +100,11 @@ main{
         }
     }
 
+    .critterName{
+        border: solid black;
+    }
+
+    .critterHealth{
+        border: solid black;
+    }
 }
