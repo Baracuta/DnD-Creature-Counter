@@ -79,21 +79,24 @@ main{
     .critterButtons{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .healthButton{
             border: solid black;
             text-wrap:wrap;
+            width: 30%;
         }
 
         .notesButton{
             border: solid black;
             text-wrap:wrap;
+            width: 30%;
         }
 
         .deleteButton{
             border: solid black;
             text-wrap:wrap;
+            width: 30%;
         }
     }
 
