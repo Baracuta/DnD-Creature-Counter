@@ -57,7 +57,7 @@ main{
 }
 
 .creature_table{
-    border: solid blue;
+    border: solid black;
     display: flex;
     justify-content: space-between;
     max-width: 95%;
@@ -67,7 +67,7 @@ main{
 }
 
 .critterBox{
-    border: solid red;
+    border: solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,6 +75,8 @@ main{
     text-align: center;
     max-width: 25%;
     width: 25%;
+    border-radius: 4%;
+    background-color: gray;
 
     .critterButtons{
         display: flex;
@@ -106,5 +108,6 @@ main{
 
     .critterHealth{
         border: solid black;
+        background-color: crimson;
     }
 }
