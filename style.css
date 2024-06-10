@@ -70,7 +70,7 @@ main{
     border: solid black;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
     max-width: 25%;
@@ -112,5 +112,8 @@ main{
     .critterHealth{
         border: solid black;
         background-color: crimson;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: whitesmoke 2px;
     }
 }
