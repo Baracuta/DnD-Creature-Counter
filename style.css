@@ -87,18 +87,21 @@ main{
             border: solid black;
             text-wrap:wrap;
             width: 30%;
+            color: white;
         }
 
         .notesButton{
             border: solid black;
             text-wrap:wrap;
             width: 30%;
+            color: white;
         }
 
         .deleteButton{
             border: solid black;
             text-wrap:wrap;
             width: 30%;
+            color: white;
         }
     }
 
