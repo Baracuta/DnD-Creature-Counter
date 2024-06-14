@@ -57,11 +57,21 @@ main{
     }
 
     .lock_button{
-
+        img{
+            max-width: 80%;
+            max-height: 50%;
+            size: contain;
+            justify-content: center;
+        }
     }
 
     .unlock_button{
-
+        img{
+            max-width: 80%;
+            max-height: 50%;
+            size: contain;
+            justify-content: center;
+        }
     }
 }
 
