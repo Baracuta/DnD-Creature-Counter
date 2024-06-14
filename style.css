@@ -51,7 +51,7 @@ main{
         img{
             max-width: 80%;
             max-height: 50%;
-            width: 50px;
+            width: 80%;
             justify-content: center;
         }
     }
@@ -60,7 +60,7 @@ main{
         img{
             max-width: 80%;
             max-height: 50%;
-            width: 50px;
+            width: 80%;
             justify-content: center;
         }
     }
@@ -69,7 +69,7 @@ main{
         img{
             max-width: 80%;
             max-height: 50%;
-            width: 50px;
+            width: 80%;
             justify-content: center;
         }
     }
@@ -103,26 +103,30 @@ main{
         justify-content: space-around;
 
         img{
-            width: 50px;
+            width: 70px;
+            justify-content: center;
         }
 
         .healthButton{
             border: solid black;
-            width: 30%;
+            width: fit-content;
+            max-width: 30%;
             background-color: rgb(59, 59, 59);
             color: white;
         }
 
         .notesButton{
             border: solid black;
-            width: 30%;
+            width: fit-content;
+            max-width: 30%;
             background-color: rgb(59, 59, 59);
             color: white;
         }
 
         .deleteButton{
             border: solid black;
-            width: 30%;
+            width: fit-content;
+            max-width: 30%;
             background-color: rgb(59, 59, 59);
             color: white;
         }
