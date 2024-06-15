@@ -87,6 +87,9 @@ main{
     max-width: 25%;
     min-width: fit-content;
     width: 25%;
+    max-height: 20%;
+    min-height: fit-content;
+    height: 20%;
     border-radius: 4%;
     background-color: gray;
 
