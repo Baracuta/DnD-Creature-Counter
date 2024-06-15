@@ -32,12 +32,14 @@ body{
 
 main{
     display: flex;
-    border: solid yellow;
+    border: solid black;
+    width: 90vh;
+    height: 80vh;
     justify-content: flex-start;
 }
 
 .side_bar{
-    border: solid green;
+    border: solid black;
     display:flex;
     flex-direction: column;
     justify-content: center;
