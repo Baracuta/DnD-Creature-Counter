@@ -91,7 +91,7 @@ main{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
+        background-color: rgb(59, 59, 59);
         img{
             width: 70px;
             justify-content: center;
@@ -100,25 +100,22 @@ main{
         .healthButton{
             border: solid black;
             width: fit-content;
+            height: fit-content;
             max-width: 30%;
-            background-color: rgb(59, 59, 59);
-            color: white;
         }
 
         .notesButton{
             border: solid black;
             width: fit-content;
+            height: fit-content;
             max-width: 30%;
-            background-color: rgb(59, 59, 59);
-            color: white;
         }
 
         .deleteButton{
             border: solid black;
             width: fit-content;
+            height: fit-content;
             max-width: 30%;
-            background-color: rgb(59, 59, 59);
-            color: white;
         }
     }
 
