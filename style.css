@@ -94,7 +94,8 @@ main{
         justify-content: space-around;
         background-color: rgb(59, 59, 59);
         img{
-            width: 70px;
+            width: 70%;
+            height: 20%;
             justify-content: center;
         }
 
