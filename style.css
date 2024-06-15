@@ -83,6 +83,7 @@ main{
     flex-wrap: wrap;
     text-align: center;
     max-width: 25%;
+    min-width: fit-content;
     width: 25%;
     border-radius: 4%;
     background-color: gray;
