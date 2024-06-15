@@ -48,19 +48,19 @@ main{
 
     .add_button{
         img{
-            width: 80%;
+            width: 100%;
         }
     }
 
     .lock_button{
         img{
-            width: 80%;
+            width: 100%;
         }
     }
 
     .unlock_button{
         img{
-            width: 80%;
+            width: 100%;
         }
     }
 }
