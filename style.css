@@ -32,7 +32,7 @@ body{
 
 main{
     display: flex;
-    border: solid black;
+    border: solid yellow;
     width: 90vh;
     height: 80vh;
     justify-content: flex-start;
@@ -42,7 +42,7 @@ main{
     border: solid black;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     height: fit-content;
     max-width: 5%;
@@ -68,7 +68,7 @@ main{
 }
 
 .creature_table{
-    border: solid black;
+    border: solid blue;
     display: flex;
     justify-content: space-between;
     max-width: 95%;
