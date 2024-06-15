@@ -43,7 +43,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     height: fit-content;
-    max-width: 10%;
+    max-width: 5%;
     min-width: 5%;
 
     .add_button{
