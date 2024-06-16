@@ -78,7 +78,7 @@ main{
 }
 
 .critterBox{
-    border: solid black;
+    border: solid green;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -99,8 +99,7 @@ main{
         justify-content: space-around;
         background-color: rgb(59, 59, 59);
         img{
-            width: 70%;
-            height: 20%;
+            width: 70px;
             justify-content: center;
         }
 
