@@ -34,7 +34,7 @@ main{
     display: flex;
     border: solid yellow;
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     justify-content: flex-start;
 }
 
