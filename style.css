@@ -98,9 +98,7 @@ main{
         justify-content: space-around;
         background-color: rgb(59, 59, 59);
         border-radius: 4%;
-        margin-left: 2px;
-        margin-right: 2px;
-        width: 90%;
+        width: 80%;
         img{
             width: 70px;
             justify-content: center;
@@ -134,9 +132,7 @@ main{
         font-weight: bold;
         text-shadow: whitesmoke 2px;
         border-radius: 4%;
-        margin-left: 2px;
-        margin-right: 2px;
-        width: 90%;
+        width: 80%;
     }
 
     .critterHealth{
@@ -145,8 +141,6 @@ main{
         font-size: 20px;
         font-weight: bold;
         text-shadow: whitesmoke 2px;
-        margin-left: 2px;
-        margin-right: 2px;
-        width: 90%;
+        width: 80%;
     }
 }
