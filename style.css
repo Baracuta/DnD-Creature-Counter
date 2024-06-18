@@ -98,7 +98,8 @@ main{
         justify-content: space-around;
         background-color: rgb(59, 59, 59);
         border-radius: 4%;
-        margin: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
         width: 90%;
         img{
             width: 70px;
@@ -133,7 +134,8 @@ main{
         font-weight: bold;
         text-shadow: whitesmoke 2px;
         border-radius: 4%;
-        margin: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
         width: 90%;
     }
 
@@ -143,7 +145,8 @@ main{
         font-size: 20px;
         font-weight: bold;
         text-shadow: whitesmoke 2px;
-        margin: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
         width: 90%;
     }
 }
