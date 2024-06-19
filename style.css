@@ -89,16 +89,17 @@ main{
     max-width: 25%;
     min-width: fit-content;
     width: 25%;
-    max-height: 30%;
+    max-height: 33%;
     border-radius: 4%;
     background-color: gray;
 
     .critterButtons{
+        border: solid black;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         background-color: rgb(59, 59, 59);
-        border-radius: 4%;
+        border-radius: 5%;
         width: 80%;
         img{
             width: 70px;
