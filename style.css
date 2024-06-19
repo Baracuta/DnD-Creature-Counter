@@ -107,24 +107,25 @@ main{
         }
 
         .healthButton{
-            border: solid black;
             width: fit-content;
             height: fit-content;
             max-width: 30%;
+            align-items: center;
         }
 
         .notesButton{
-            border: solid black;
             width: fit-content;
             height: fit-content;
             max-width: 30%;
+            align-items: center;
         }
 
         .deleteButton{
-            border: solid black;
+    
             width: fit-content;
             height: fit-content;
             max-width: 30%;
+            align-items: center;
         }
     }
 
