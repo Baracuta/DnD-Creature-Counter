@@ -98,7 +98,7 @@ main{
         background-color: rgb(59, 59, 59);
         border-radius: 5%;
         width: 80%;
-        height: fit-content;
+        height: max-content;
         img{
             width: 70px;
             justify-content: center;
