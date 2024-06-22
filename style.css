@@ -3,14 +3,12 @@ header{
     border: solid black;
     background-color: black;
     color: white;
-    padding-left: 2%;
-    padding-right: 2%;
     max-height: 10vh;
-    text-align: center;
 
     h1{
         font-size: 50px;
-        text-align:left
+        text-align:left;
+        padding: 10%
     }
 
 }
