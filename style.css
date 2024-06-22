@@ -35,7 +35,6 @@ main{
 }
 
 .side_bar{
-    border: solid black;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
