@@ -1,5 +1,5 @@
 const addButton=
-document.getElementById("add_button()");
+document.getElementById("add_button");
 addButton.addEventListener("click", addCritter);
 
 function addCritter(){
