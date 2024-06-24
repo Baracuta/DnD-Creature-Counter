@@ -45,19 +45,19 @@ main{
     min-width: 4%;
     margin-top: 4px;
 
-    add_button{
+    .add_button{
         img{
             width: 100%;
         }
     }
 
-    lock_button{
+    .lock_button{
         img{
             width: 100%;
         }
     }
 
-    unlock_button{
+    .unlock_button{
         img{
             width: 100%;
         }
