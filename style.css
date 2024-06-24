@@ -4,10 +4,10 @@ header{
     background-color: black;
     color: white;
     max-height: 10vh;
-    padding:2%;
+    height: fit-content;
 
     h1{
-        font-size: 80px;
+        font-size: 60px;
         text-align:left;
     }
 
