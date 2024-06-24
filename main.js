@@ -1,5 +1,5 @@
-let button=document.getElementById("add_button");
-button.addEventListener("click",addCritter);
+document.getElementById("add_button");
+add_button.addEventListener("click",addCritter);
 
 function addCritter(){
     document.getElementsByClassName(critterBox).style.backgroundColor="green";
