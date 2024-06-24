@@ -1,7 +1,7 @@
-const addButton=
+const add_button=
 document.getElementById("add_button");
 add_button.addEventListener("click", addCritter);
 
 function addCritter(){
-    document.getElementById(critterBox).style.backgroundColor="green";
+    document.getElementsByClassName(critterBox).style.backgroundColor="green";
 }
