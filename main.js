@@ -1,5 +1,7 @@
+const addButton=
+document.getElementById("add_button()");
+addButton.addEventListener("click", addCritter);
+
 function addCritter(){
-    let table=document.getElementById("creature_table");
-    let box=document.getElementsByClassName("critterBox");
-    table.appendChild(box);
+    document.getElementById(critterBox).style.backgroundColor="green";
 }
