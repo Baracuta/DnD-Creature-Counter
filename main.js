@@ -1,4 +1,5 @@
 function addCritter(){
-    let element=document.getElementsByClassName("creature_table");
-    element.add("critterBox");
+    let element=document.getElementById("creature_table");
+    let box=document.getElementsByClassName("critterBox");
+    element.append(box);
 }
