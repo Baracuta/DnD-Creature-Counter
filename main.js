@@ -1,4 +1,4 @@
-function addButton(){
+function addCritter(){
     let element=document.createElement("critterBox");
     
 }
