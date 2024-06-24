@@ -44,24 +44,10 @@ main{
     max-width: 4%;
     min-width: 4%;
     margin-top: 4px;
-
-    .add_button{
-        img{
-            width: 100%;
-        }
+    img{
+        width: 100%;
     }
 
-    .lock_button{
-        img{
-            width: 100%;
-        }
-    }
-
-    .unlock_button{
-        img{
-            width: 100%;
-        }
-    }
 }
 
 .creature_table{
