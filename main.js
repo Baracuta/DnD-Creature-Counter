@@ -9,9 +9,11 @@ const jsTable=document.querySelector("creature_table");
 //let table=document.getElementById("creature_table");
 //let box=document.getElementsByClassName("critterBox");
 
-jsAdd.addEventListener("click",addCritter);
-
 
 function addCritter(){
-    jsTable.appendChild(jsBox);
+    const critterBox=document.querySelector(".critterBox");
+    const newCritter=critterBox.cloneNode(true);
+    jsTable.appendChild(newCritter);
 }
+
+jsAdd.addEventListener("click",addCritter);
