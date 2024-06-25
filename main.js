@@ -4,5 +4,5 @@ add_button.addEventListener("click",addCritter);
 
 
 function addCritter(){
-    box.style.backgroundColor="green";
+    box.style.background-color;"green";
 }
