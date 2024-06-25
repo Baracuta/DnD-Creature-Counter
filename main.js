@@ -1,8 +1,8 @@
 document.getElementById("add_button");
-document.getElementsByClassName("critterBox");
+let box=document.getElementsByClassName("critterBox");
 add_button.addEventListener("click",addCritter);
 
 
 function addCritter(){
-    critterBox.style.backgroundColor="green";
+    box.style.backgroundColor="green";
 }
