@@ -13,5 +13,5 @@ jsAdd.addEventListener("click",addCritter);
 
 
 function addCritter(){
-    jsTable.append(jsBox);
+    jsTable.classList.add(jsBox);
 }
