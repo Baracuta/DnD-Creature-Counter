@@ -11,8 +11,8 @@ const jsTable=document.querySelector("creature_table");
 
 
 function addCritter(){
-    const critterBox=document.querySelector(".critterBox");
-    const newCritter=jsBox.cloneNode(true);
+    const critterBox=document.querySelector("critterBox");
+    const newCritter=critterBox.cloneNode(true);
     jsTable.appendChild(newCritter);
 }
 
