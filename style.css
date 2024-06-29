@@ -85,7 +85,8 @@ main{
         background-color: rgb(59, 59, 59);
         border-radius: 5%;
         width: 80%;
-        height: max-content;
+        height: fit-content;
+        max-height: 30%;
         img{
             width: 70%;
             justify-content: center;
@@ -120,6 +121,7 @@ main{
         text-shadow: whitesmoke 2px;
         border-radius: 4%;
         width: 80%;
+        max-height: 30%;
     }
 
     .critterHealth{
@@ -129,5 +131,6 @@ main{
         font-weight: bold;
         text-shadow: whitesmoke 2px;
         width: 80%;
+        max-height: 30%;
     }
 }
