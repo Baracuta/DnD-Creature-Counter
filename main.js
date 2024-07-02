@@ -1,10 +1,10 @@
+//Global Variables
 const jsBox=document.querySelectorAll("critterBox");
 
 const jsAdd=document.getElementById("add_button");
 
 const jsTable=document.querySelector("creature_table");
 
-//Global Variables Below
 
 
 function addCritter(){
