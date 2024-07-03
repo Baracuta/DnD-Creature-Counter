@@ -9,5 +9,6 @@ const jsTable=document.querySelector("creature_table");
 //Scripts that make Add Button Work
 
 jsAdd.addEventListener("click", function(){
-    jsTable.appendChild(jsBox);
+    const addBox=document.createElement(jsBox);
+    jsTable.classList.add(addBox);
 });
