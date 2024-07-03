@@ -8,9 +8,6 @@ const jsTable=document.querySelector("creature_table");
 
 //Scripts that make Add Button Work
 
-function addCritter(){
-    const newCritter=jsBox.cloneNode(true);
-    jsTable.appendChild(newCritter);
-}
-
-jsAdd.addEventListener("click",addCritter);
+jsAdd.addEventListener("click", function(){
+    jsTable.appendChild(jsBox);
+});
