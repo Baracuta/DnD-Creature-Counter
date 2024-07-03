@@ -6,9 +6,9 @@ const jsAdd=document.getElementById("add_critter");
 //Get the table that holds all critterBox instances
 const jsTable=document.querySelector("creature_table");
 
-//Scripts that make Add Button Work
+//The things that add a new creature
 
 jsAdd.addEventListener("click", function(){
-    const addBox=document.createElement(jsBox);
+    const addBox=document.createElement("critterBox");
     jsTable.classList.add(addBox);
 });
