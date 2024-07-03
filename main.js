@@ -10,5 +10,4 @@ const jsTable=document.querySelector("creature_table");
 
 jsAdd.addEventListener("click", function(){
     const addBox=document.createElement("critterBox");
-    jsTable.classList.add(addBox);
 });
