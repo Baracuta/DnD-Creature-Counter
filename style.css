@@ -92,21 +92,21 @@ main{
             justify-content: center;
         }
 
-        .healthButton{
+        #healthButton{
             width: fit-content;
             height: fit-content;
             max-width: 30%;
             align-items: center;
         }
 
-        .notesButton{
+        #notesButton{
             width: fit-content;
             height: fit-content;
             max-width: 30%;
             align-items: center;
         }
 
-        .deleteButton{
+        #deleteButton{
     
             width: fit-content;
             height: fit-content;
