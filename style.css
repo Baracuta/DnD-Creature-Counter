@@ -122,6 +122,7 @@ main{
         border-radius: 4%;
         width: 80%;
         max-height: 30%;
+        text-align:center;
     }
 
     #critterHealth{
@@ -132,5 +133,6 @@ main{
         text-shadow: whitesmoke 2px;
         width: 80%;
         max-height: 30%;
+        text-align: center;
     }
 }
