@@ -9,6 +9,6 @@ const jsTable=document.getElementById("creature_table");
 //The things that add a new creature
 
 jsAdd.addEventListener("click", function(){
-    const addBox=document.createElement("critterBox");
+    let addBox=document.createElement(jsBox);
     jsTable.appendChild(addBox);
 });
