@@ -50,7 +50,7 @@ main{
 
 }
 
-.creature_table{
+#creature_table{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
