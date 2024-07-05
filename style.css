@@ -25,6 +25,10 @@ body{
     margin-right:4%;
     border: solid black;
     border-width: 3px;
+    
+    .button{
+        background-color: black;
+    }
 }
 
 main{
