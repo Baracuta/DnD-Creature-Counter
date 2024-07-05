@@ -14,12 +14,14 @@ function addCritter(){
     if (currentBoxes<12){
         let newBox=document.createElement("div");
             newBox.className="critterBox";
-            let newBoxname=document.createElement("input");
-                newBoxname.type="text";
-                newBoxname.className="critterName";
-            let newBoxhealth=document.createElement("input");
-                newBoxhealth.type="text";
-                newBoxhealth.className="critterHealth";
+            let newBoxName=document.createElement("input");
+                newBoxName.type="text";
+                newBoxName.className="critterName";
+            let newBoxHealth=document.createElement("input");
+                newBoxHealth.type="text";
+                newBoxHealth.className="critterHealth";
+            let newBoxNotes=document.getElementsByClassName("critterButtons");
+            newBox.appendChild(newBoxNotes);
             newBox.appendChild(newBoxname);
             newBox.appendChild(newBoxhealth);
         jsTable.appendChild(newBox);
