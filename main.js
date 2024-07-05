@@ -11,8 +11,10 @@ const jsTable=document.getElementById("creature_table");
 function addCritter(){
     let newBox=document.createElement("div");
         newBox.className="critterBox";
-        let newBoxname=newBox.createElement("input type=text");
-        let newBoxhealth=newBox.createElement("input type=text");
+        let newBoxname=document.createElement("input type=text");
+        let newBoxhealth=document.createElement("input type=text");
+        newBox.appendChild(newBoxname);
+        newBox.appendChild(newBoxhealth);
     jsTable.appendChild(newBox);
 }
 
