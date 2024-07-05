@@ -6,7 +6,7 @@ const jsAdd=document.getElementById("add_critter");
 //Get the table that holds all critterBox instances
 const jsTable=document.getElementById("creature_table");
 //Variable that tracks the current number of critterBoxes
-const currentBoxes=0
+let currentBoxes=0
 
 //Functions for Buttons
 //Add a new critter
