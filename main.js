@@ -20,10 +20,20 @@ function addCritter(){
             let newBoxHealth=document.createElement("input");
                 newBoxHealth.type="text";
                 newBoxHealth.className="critterHealth";
-            let newBoxNotes=document.getElementsByClassName("critterButtons");
+            let newBoxNotes=document.createElement("div");
+                newBoxNotes.className="critterNotes";
+            newBox.appendChild(newBoxName);
+            newBox.appendChild(newBoxHealth);
             newBox.appendChild(newBoxNotes);
-            newBox.appendChild(newBoxname);
-            newBox.appendChild(newBoxhealth);
+            let newBoxButtons=document.createElement("div");
+                newBoxButtons.className="critterButtons";
+                let newHealthButton= newBoxButtons.createElement("button");
+                    newHealthButton.className="healthButton";
+                let newNotesButton= newBoxButtons.createElement("button");
+                    newNotesButton.className="notesButton";
+                let newDeleteButton= newBoxButtons.createElement("button");
+                    newDeleteButton.className="deleteButton";
+            newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
         currentBoxes=(currentBoxes+1);
     }
