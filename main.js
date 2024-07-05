@@ -9,7 +9,7 @@ const jsTable=document.getElementById("creature_table");
 //Functions for Buttons
 //Add a new critter
 function addCritter(){
-    let newBox=document.createElement(jsBox);
+    let newBox=document.createElement("jsBox");
     newBox.innerHTML=+"For testing purposes";
     jsTable.appendChild(newBox);
 }
