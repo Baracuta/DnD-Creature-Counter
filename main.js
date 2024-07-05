@@ -1,15 +1,18 @@
 //Global Variables
 //Get generic critterBox
-const jsBox=document.querySelectorAll("critterBox");
+const jsBox=document.getElementsByTagName("genericCritter");
 //Get button that adds a new critterBox
 const jsAdd=document.getElementById("add_critter");
 //Get the table that holds all critterBox instances
 const jsTable=document.getElementById("creature_table");
 
-//The things that add a new creature
+//Functions for Buttons
+//Add a new critter
+function addCritter(){
+    let newBox=document.createElement(jsBox);
+    newBox.innerHTML=+"For testing purposes";
+    jsTable.appendChild(newBox);
+}
 
-jsAdd.addEventListener("click", function(){
-    let addBox=document.createElement("p");
-    addBox.innerHTML="For testing purposes";
-    jsTable.appendChild(addBox);
-});
+//Button Listeners
+jsAdd.addEventListener("click", addCritter);
