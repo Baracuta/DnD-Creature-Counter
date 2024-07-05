@@ -13,8 +13,10 @@ function addCritter(){
         newBox.className="critterBox";
         let newBoxname=document.createElement("input");
             newBoxname.type="text";
+            newBoxname.className="critterName";
         let newBoxhealth=document.createElement("input");
             newBoxhealth.type="text";
+            newBoxhealth.className="critterHealth";
         newBox.appendChild(newBoxname);
         newBox.appendChild(newBoxhealth);
     jsTable.appendChild(newBox);

@@ -115,7 +115,7 @@ main{
         }
     }
 
-    #critterName{
+    .critterName{
         font-size: 20px;
         font-weight: bold;
         text-shadow: whitesmoke 2px;
@@ -125,7 +125,7 @@ main{
         text-align:center;
     }
 
-    #critterHealth{
+    .critterHealth{
         border: solid black;
         background-color: crimson;
         font-size: 20px;
