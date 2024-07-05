@@ -97,26 +97,23 @@ main{
         }
 
         .healthButton{
-            width: fit-content;
+            width: 65%;
             height: fit-content;
-            max-width: 30%;
             align-items: center;
             background-image: url("Visual Resources/Icons/heart-drop.png");
         }
 
         .notesButton{
-            width: fit-content;
+            width: 65%;
             height: fit-content;
-            max-width: 30%;
             align-items: center;
             background-image: url("Visual Resources/Icons/notebook.png");
         }
 
         .deleteButton{
     
-            width: fit-content;
+            width: 65%;
             height: fit-content;
-            max-width: 30%;
             align-items: center;
             background-image: url("Visual Resources/Icons/death-skull.png");
         }
