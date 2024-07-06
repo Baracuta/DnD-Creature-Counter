@@ -102,7 +102,7 @@ main{
         .healthButton{
             width: 65%;
             height: 65%;
-            background-size: 100%;
+            background-size: auto 50%;
             align-items: center;
             background-image:url("Visual Resources/Icons/heart-drop.png");
         }
@@ -110,7 +110,7 @@ main{
         .notesButton{
             width: 65%;
             height: 65%;
-            background-size:100%;
+            background-size: auto 50%;
             align-items: center;
             background-image:url("Visual Resources/Icons/notebook.png");
         }
@@ -118,7 +118,7 @@ main{
         .deleteButton{
             width: 65%;
             height: 65%;
-            background-size:100%;
+            background-size: auto 50%;
             align-items: center;
             background-image:url("Visual Resources/Icons/death-skull.png");
         }
@@ -137,7 +137,7 @@ main{
     .critterHealth{
         border: solid black;
         background-color: crimson;
-        font-size: 20px;
+        font-size: 40px;
         font-weight: bold;
         text-shadow: whitesmoke 2px;
         width: 80%;

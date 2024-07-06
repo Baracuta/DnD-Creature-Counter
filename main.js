@@ -12,8 +12,10 @@ let currentBoxes=0
 //Add a new critter
 function addCritter(){
     if (currentBoxes<12){
+        currentBoxes=(currentBoxes+1);
         let newBox=document.createElement("div");
             newBox.className="critterBox";
+            let newBoxID=newBox.id="critterBox"+currentBoxes;
             let newBoxName=document.createElement("input");
                 newBoxName.type="text";
                 newBoxName.className="critterName";
@@ -38,7 +40,6 @@ function addCritter(){
                     newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
-        currentBoxes=(currentBoxes+1);
     }
     else{
         stop;
