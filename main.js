@@ -29,10 +29,13 @@ function addCritter(){
                 newBoxButtons.className="critterButtons";
                 let newHealthButton=document.createElement("button");
                     newHealthButton.className="healthButton";
+                    newBoxButtons.appendChild(newHealthButton);
                 let newNotesButton=document.createElement("button");
                     newNotesButton.className="notesButton";
+                    newBoxButtons.appendChild(newNotesButton);
                 let newDeleteButton=document.createElement("button");
                     newDeleteButton.className="deleteButton";
+                    newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
         currentBoxes=(currentBoxes+1);
