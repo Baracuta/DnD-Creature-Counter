@@ -138,4 +138,8 @@ main{
         max-height: 30%;
         text-align: center;
     }
+
+    .critterNotes{
+        display: none;
+    }
 }
