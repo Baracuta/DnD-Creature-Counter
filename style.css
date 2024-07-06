@@ -100,22 +100,21 @@ main{
             width: 65%;
             height: 50%;
             align-items: center;
-            background-image: url("Visual Resources/Icons/heart-drop.png");
+            content:url("Visual Resources/Icons/heart-drop.png");
         }
 
         .notesButton{
             width: 65%;
             height: 50%;
             align-items: center;
-            background-image: url("Visual Resources/Icons/notebook.png");
+            content:url("Visual Resources/Icons/notebook.png");
         }
 
         .deleteButton{
-    
             width: 65%;
             height: 50%;
             align-items: center;
-            background-image: url("Visual Resources/Icons/death-skull.png");
+            content:url("Visual Resources/Icons/death-skull.png");
         }
     }
 
