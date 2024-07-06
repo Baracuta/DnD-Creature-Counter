@@ -25,10 +25,6 @@ body{
     margin-right:4%;
     border: solid black;
     border-width: 3px;
-    
-    button{
-        background-color: black;
-    }
 }
 
 main{
@@ -50,6 +46,9 @@ main{
     margin-top: 4px;
     img{
         width: 100%;
+    }
+    button{
+        background-color: black;
     }
 
 }
@@ -135,6 +134,7 @@ main{
         font-weight: bold;
         text-shadow: whitesmoke 2px;
         width: 80%;
+        height:30%
         max-height: 30%;
         text-align: center;
     }
