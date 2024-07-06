@@ -47,6 +47,7 @@ main{
     img{
         width: 100%;
     }
+
     button{
         background-color: black;
     }
@@ -63,6 +64,9 @@ main{
     min-height: 80%;
 }
 
+#genericCritter{
+    display: none;
+}
 .critterBox{
     border: solid black;
     display: flex;
@@ -97,21 +101,24 @@ main{
 
         .healthButton{
             width: 65%;
-            height: 50%;
+            height: 65%;
+            background-size: 100%;
             align-items: center;
             background-image:url("Visual Resources/Icons/heart-drop.png");
         }
 
         .notesButton{
             width: 65%;
-            height: 50%;
+            height: 65%;
+            background-size:100%;
             align-items: center;
             background-image:url("Visual Resources/Icons/notebook.png");
         }
 
         .deleteButton{
             width: 65%;
-            height: 50%;
+            height: 65%;
+            background-size:100%;
             align-items: center;
             background-image:url("Visual Resources/Icons/death-skull.png");
         }
