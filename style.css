@@ -102,25 +102,28 @@ main{
         .healthButton{
             width: 65%;
             height: 65%;
-            background-size: auto 50%;
+            background-size: auto 90%;
             align-items: center;
             background-image:url("Visual Resources/Icons/heart-drop.png");
+            background-repeat: no-repeat;
         }
 
         .notesButton{
             width: 65%;
             height: 65%;
-            background-size: auto 50%;
+            background-size: auto 90%;
             align-items: center;
             background-image:url("Visual Resources/Icons/notebook.png");
+            background-repeat: no-repeat;
         }
 
         .deleteButton{
             width: 65%;
             height: 65%;
-            background-size: auto 50%;
+            background-size: auto 90%;
             align-items: center;
             background-image:url("Visual Resources/Icons/death-skull.png");
+            background-repeat: no-repeat;
         }
     }
 
