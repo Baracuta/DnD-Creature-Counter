@@ -102,7 +102,7 @@ main{
         .healthButton{
             width: 65%;
             height: 65%;
-            background-size: auto 90%;
+            background-size: auto 100%;
             align-items: center;
             background-image:url("Visual Resources/Icons/heart-drop.png");
             background-repeat: no-repeat;
@@ -113,7 +113,7 @@ main{
         .notesButton{
             width: 65%;
             height: 65%;
-            background-size: auto 90%;
+            background-size: auto 100%;
             align-items: center;
             background-image:url("Visual Resources/Icons/notebook.png");
             background-repeat: no-repeat;
@@ -124,7 +124,7 @@ main{
         .deleteButton{
             width: 65%;
             height: 65%;
-            background-size: auto 90%;
+            background-size: auto 100%;
             align-items: center;
             background-image:url("Visual Resources/Icons/death-skull.png");
             background-repeat: no-repeat;
