@@ -89,7 +89,7 @@ main{
         background-color: rgb(59, 59, 59);
         border-radius: 5%;
         width: 80%;
-        height: fit-content;
+        height:30%;
         max-height: 30%;
         img{
             width: 65%;
@@ -100,21 +100,21 @@ main{
             width: 65%;
             height: 50%;
             align-items: center;
-            :content:url("Visual Resources/Icons/heart-drop.png");
+            background-image:url("Visual Resources/Icons/heart-drop.png");
         }
 
         .notesButton{
             width: 65%;
             height: 50%;
             align-items: center;
-            :content:url("Visual Resources/Icons/notebook.png");
+            background-image:url("Visual Resources/Icons/notebook.png");
         }
 
         .deleteButton{
             width: 65%;
             height: 50%;
             align-items: center;
-            :content:url("Visual Resources/Icons/death-skull.png");
+            background-image:url("Visual Resources/Icons/death-skull.png");
         }
     }
 
