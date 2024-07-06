@@ -106,6 +106,8 @@ main{
             align-items: center;
             background-image:url("Visual Resources/Icons/heart-drop.png");
             background-repeat: no-repeat;
+            background-color: black;
+            background-position: center;
         }
 
         .notesButton{
@@ -115,6 +117,8 @@ main{
             align-items: center;
             background-image:url("Visual Resources/Icons/notebook.png");
             background-repeat: no-repeat;
+            background-color: black;
+            background-position: center;
         }
 
         .deleteButton{
@@ -124,6 +128,8 @@ main{
             align-items: center;
             background-image:url("Visual Resources/Icons/death-skull.png");
             background-repeat: no-repeat;
+            background-color: black;
+            background-position: center;
         }
     }
 
