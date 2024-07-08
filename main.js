@@ -42,7 +42,6 @@ function addCritter(){
                     newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
-        let jsTable=document.getElementById("creature_table");
     }
     else{
         stop;
