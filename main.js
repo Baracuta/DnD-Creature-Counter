@@ -48,20 +48,19 @@ function addCritter(){
     }
 }
 //Note to me: make a separate function that identifies the box/button, then make separate functions for each button
-//Function to Delete Boxes
+//Function to find deleteButton
 function deleteButtons(){
     let whichOne=event.currentTarget;
     console.log(whichOne);
     document.getElementsByClassName("critterBox");
     let x=whichOne.id;
     console.log(x);
-    (this.parent(whichOne).hide)
-    if (x="deleteButton1"){
-        currentBoxes=(currentBoxes-1);
-    }
-    else{
-        stop;
-    }
+    this.parentNode.parentNode.parentNode.removeChild("newBox");
+}
+
+//Function to delete a critterBox
+function deleteBox(input){
+    jsTable.removeChild()
 }
 
 //Button Listeners
