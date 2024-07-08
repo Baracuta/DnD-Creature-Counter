@@ -36,7 +36,7 @@ function addCritter(){
                     newNotesButton.className="notesButton";
                     newBoxButtons.appendChild(newNotesButton);
                 let newDeleteButton=document.createElement("button");
-                    newDeleteButton.className="deleteButtonClass";
+                    newDeleteButton.className="deleteButton";
                     newDeleteButton.id="deleteButton"+currentBoxes;
                     newDeleteButton.addEventListener("click",deleteButtons);
                     newBoxButtons.appendChild(newDeleteButton);
@@ -47,13 +47,14 @@ function addCritter(){
         stop;
     }
 }
-
+//Note to me: make a separate function that identifies the box/button, then make separate functions for each button
 //Function to Delete Boxes
-function deleteButtons(deleteButton){
+function deleteButtons(){
     let whichOne=event.currentTarget;
+    console.log(whichOne);
     document.getElementsByClassName("critterBox");
     let x=whichOne.id;
-    console.log(button.id);
+    console.log(x);
     if (x="deleteButton1"){
         alert("Button for box1");
         currentBoxes=(currentBoxes-1);
