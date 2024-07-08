@@ -49,15 +49,16 @@ function addCritter(){
 }
 
 //Function to Delete Boxs
-function deleteButtons(newDeleteButton){
+function deleteButtons(button){
     document.getElementsByClassName("critterBox");
-    console.log(EventTarget);
-    if (newDeleteButton.id="deleteButton1"){
+    let x=button.id;
+    console.log(button.id);
+    if (button.id="deleteButton1"){
         alert("Button for box1");
         currentBoxes=(currentBoxes-1);
     }
     else
-    if (newDeleteButton.id="deleteButton2"){
+    if (button.id="deleteButton2"){
         alert("Button for box2");
         currentBoxes=(currentBoxes-1);
     }
@@ -67,7 +68,7 @@ function deleteButtons(newDeleteButton){
         currentBoxes=(currentBoxes-1);
     }
     else
-    if (newDeleteButton.id="deleteButton4"){
+    if (button.id="deleteButton4"){
         jsTable.removeChild(document.getElementById("critterBox4"));
         currentBoxes=(currentBoxes-1);
     }
