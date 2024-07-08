@@ -42,7 +42,7 @@ function addCritter(){
                     newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     else{
         stop;
@@ -51,65 +51,66 @@ function addCritter(){
 
 //Function to Delete Boxs
 function deleteButtons(newDeleteButton){
+    let jsTable=document.getElementById("creature_table");
     if (newDeleteButton.id="deleteButton1"){
         jsTable.removeChild("critterBox1");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton2"){
         jsTable.removeChild("critterBox2");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton3"){
         jsTable.removeChild("critterBox3");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton4"){
         jsTable.removeChild("critterBox4");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton5"){
         jsTable.removeChild("critterBox5");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton6"){
         jsTable.removeChild("critterBox6");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton7"){
         jsTable.removeChild("critterBox7");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton8"){
         jsTable.removeChild("critterBox8");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton9"){
         jsTable.removeChild("critterBox9");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton10"){
         jsTable.removeChild("critterBox10");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton11"){
         jsTable.removeChild("critterBox11");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
     if (newDeleteButton.id="deleteButton12"){
         jsTable.removeChild("critterBox12");
         currentBoxes=(currentBoxes-1);
-        jsTable=document.getElementById("creature_table");
+        let jsTable=document.getElementById("creature_table");
     }
 }
 
