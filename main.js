@@ -51,7 +51,7 @@ function addCritter(){
 //Function to Delete Boxs
 function deleteButtons(newDeleteButton){
     document.getElementsByClassName("critterBox");
-    console.log(newDeleteButton.id);
+    console.log(EventTarget);
     if (newDeleteButton.id="deleteButton1"){
         alert("Button for box1");
         currentBoxes=(currentBoxes-1);
