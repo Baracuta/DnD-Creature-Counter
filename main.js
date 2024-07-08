@@ -64,7 +64,7 @@ function deleteButtons(newDeleteButton){
         currentBoxes=(currentBoxes-1);
     }
     if (newDeleteButton.id="deleteButton4"){
-        jsTable.removeChild("critterBox4");
+        jsTable.removeChild(document.getElementById("critterBox4"));
         currentBoxes=(currentBoxes-1);
     }
     if (newDeleteButton.id="deleteButton5"){
