@@ -55,24 +55,12 @@ function deleteButtons(){
     document.getElementsByClassName("critterBox");
     let x=whichOne.id;
     console.log(x);
+    (this.parent(whichOne).hide)
     if (x="deleteButton1"){
-        alert("Button for box1");
         currentBoxes=(currentBoxes-1);
     }
-    else
-    if (x="deleteButton2"){
-        alert("Button for box2");
-        currentBoxes=(currentBoxes-1);
-    }
-    else
-    if (x="deleteButton3"){
-        alert("Button for box3");
-        currentBoxes=(currentBoxes-1);
-    }
-    else
-    if (x="deleteButton4"){
-        jsTable.removeChild(document.getElementById("critterBox4"));
-        currentBoxes=(currentBoxes-1);
+    else{
+        stop;
     }
 }
 
