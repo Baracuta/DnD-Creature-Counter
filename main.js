@@ -51,40 +51,40 @@ function addCritter(){
 //Function to Delete Boxs
 function deleteButtons(newDeleteButton){
     if (newDeleteButton.id="deleteButton1"){
-        jsTable.removeChild(newBox1);
+        jsTable.removeChild("critterBox1");
     }
     if (newDeleteButton.id="deleteButton2"){
-        jsTable.removeChild(newBox2);
+        jsTable.removeChild("critterBox2");
     }
     if (newDeleteButton.id="deleteButton3"){
-        jsTable.removeChild(newBox3);
+        jsTable.removeChild("critterBox3");
     }
     if (newDeleteButton.id="deleteButton4"){
-        jsTable.removeChild(newBox4);
+        jsTable.removeChild("critterBox4");
     }
     if (newDeleteButton.id="deleteButton5"){
-        jsTable.removeChild(newBox5);
+        jsTable.removeChild("critterBox5");
     }
     if (newDeleteButton.id="deleteButton6"){
-        jsTable.removeChild(newBox6);
+        jsTable.removeChild("critterBox6");
     }
     if (newDeleteButton.id="deleteButton7"){
-        jsTable.removeChild(newBox7);
+        jsTable.removeChild("critterBox7");
     }
     if (newDeleteButton.id="deleteButton8"){
-        jsTable.removeChild(newBox8);
+        jsTable.removeChild("critterBox8");
     }
     if (newDeleteButton.id="deleteButton9"){
-        jsTable.removeChild(newBox9);
+        jsTable.removeChild("critterBox9");
     }
     if (newDeleteButton.id="deleteButton10"){
-        jsTable.removeChild(newBox10);
+        jsTable.removeChild("critterBox10");
     }
     if (newDeleteButton.id="deleteButton11"){
-        jsTable.removeChild(newBox11);
+        jsTable.removeChild("critterBox11");
     }
     if (newDeleteButton.id="deleteButton12"){
-        jsTable.removeChild(newBox12);
+        jsTable.removeChild("critterBox12");
     }
 }
 
