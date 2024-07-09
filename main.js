@@ -55,12 +55,8 @@ function deleteButtons(){
     document.getElementsByClassName("critterBox");
     let x=whichOne.id;
     console.log(x);
-    this.parentNode.parentNode.parentNode.removeChild("newBox");
-}
-
-//Function to delete a critterBox
-function deleteBox(input){
-    jsTable.removeChild()
+    let targetBox=whichOne.parentNode.parentNode;
+    jsTable.removeChild(targetBox);
 }
 
 //Button Listeners
