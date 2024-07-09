@@ -36,7 +36,7 @@ function addCritter(){
                 let newDeleteButton=document.createElement("button");
                     newDeleteButton.className="deleteButton";
                     newDeleteButton.id="deleteButton"+currentBoxes;
-                    newDeleteButton.addEventListener("click",deleteBix);
+                    newDeleteButton.addEventListener("click",deleteBox);
                     newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
