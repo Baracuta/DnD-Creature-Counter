@@ -57,6 +57,7 @@ function deleteButtons(){
     console.log(x);
     let targetBox=whichOne.parentNode.parentNode;
     jsTable.removeChild(targetBox);
+    currentBoxes=(currentBoxes-1);
 }
 
 //Button Listeners
