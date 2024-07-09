@@ -36,7 +36,7 @@ function addCritter(){
                 let newDeleteButton=document.createElement("button");
                     newDeleteButton.className="deleteButton";
                     newDeleteButton.id="deleteButton"+currentBoxes;
-                    newDeleteButton.addEventListener("click",deleteButtons);
+                    newDeleteButton.addEventListener("click",deleteBix);
                     newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
@@ -47,12 +47,9 @@ function addCritter(){
 }
 //Note to me: make a separate function that identifies the box/button, then make separate functions for each button
 //Function to find deleteButton
-function deleteButtons(){
+function deleteBox(){
     let whichOne=event.currentTarget;
-    console.log(whichOne);
     document.getElementsByClassName("critterBox");
-    let x=whichOne.id;
-    console.log(x);
     let targetBox=whichOne.parentNode.parentNode;
     jsTable.removeChild(targetBox);
     currentBoxes=(currentBoxes-1);
