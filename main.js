@@ -1,6 +1,4 @@
 //Global Variables
-//Get generic critterBox
-const jsBox=document.getElementsByTagName("genericCritter");
 //Get button that adds a new critterBox
 const jsAdd=document.getElementById("add_critter");
 //Get the table that holds all critterBox instances
