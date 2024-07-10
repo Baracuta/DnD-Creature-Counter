@@ -62,15 +62,15 @@ function deleteBox(){
 function showNotes(){
     let whichOne=event.currentTarget;
     let targetBox=whichOne.parentNode.parentNode;
-    targetBox.getElementById("newBoxHealth").style.display="none";
-    targetBox.getElementsById("newBoxNotes").style.display="block";
+    targetBox.newBoxHealth.style.display="none";
+    targetBox.newBoxNotes.style.display="block";
 }
 //Function to show health block
 function showHealth(){
     let whichOne=event.currentTarget;
     let targetBox=whichOne.parentNode.parentNode;
-    targetBox.getElementById("newBoxHealth").style.display="block";
-    targetBox.getElementById("newBoxNotes").style.display="none";
+    targetBox.newBoxHealth.style.display="block";
+    targetBox.newBoxNotes.style.display="none";
 
 }
 
