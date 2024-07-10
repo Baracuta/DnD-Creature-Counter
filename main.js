@@ -46,7 +46,7 @@ function addCritter(){
     }
 }
 //Note to me: make a separate function that identifies the box/button, then make separate functions for each button
-//Function to find deleteButton
+//Function to delete a critterBox
 function deleteBox(){
     let whichOne=event.currentTarget;
     document.getElementsByClassName("critterBox");
@@ -54,6 +54,8 @@ function deleteBox(){
     jsTable.removeChild(targetBox);
     currentBoxes=(currentBoxes-1);
 }
+
+//Function to show a notes block
 
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
