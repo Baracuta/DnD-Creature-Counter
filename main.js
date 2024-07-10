@@ -20,8 +20,10 @@ function addCritter(){
             let newBoxHealth=document.createElement("input");
                 newBoxHealth.type="text";
                 newBoxHealth.className="critterHealth";
+                newBoxHealth.id="newBoxHealth"
             let newBoxNotes=document.createElement("input");
                 newBoxNotes.className="critterNotes";
+                newBoxNotes.id="newBoxNotes"
             newBox.appendChild(newBoxName);
             newBox.appendChild(newBoxHealth);
             newBox.appendChild(newBoxNotes);
@@ -59,14 +61,14 @@ function deleteBox(){
 //Function to show a notes block
 function showNotes(){
     let whichOne=event.currentTarget;
-    whichOne.parentNode.getElementsByClassName("newBoxHealth").style.display="none";
-    whichOne.parentNode.getElementsByClassName("newBoxNotes").style.display="block";
+    whichOne.parentNode.parentNode.getElementById("newBoxHealth").style.display="none";
+    whichOne.parentNode.parentNode.getElementsById("newBoxNotes").style.display="block";
 }
 //Function to show health block
 function showHealth(){
     let whichOne=event.currentTarget;
-    whichOne.parentNode.getElementsByClassName("newBoxHealth").style.display="block";
-    whichOne.parentNode.getElementsByClassName("newBoxNotes").style.display="none";
+    whichOne.parentNode.parentNode.getElementById("newBoxHealth").style.display="block";
+    whichOne.parentNode.parentNode.getElementById("newBoxNotes").style.display="none";
 
 }
 //Button Listeners
