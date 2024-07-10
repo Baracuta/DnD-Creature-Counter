@@ -49,7 +49,7 @@ function addCritter(){
         stop;
     }
 }
-//Note to me: make a separate function that identifies the box/button, then make separate functions for each button
+
 //Function to delete a critterBox
 function deleteBox(){
     let whichOne=event.currentTarget;
@@ -61,15 +61,18 @@ function deleteBox(){
 //Function to show a notes block
 function showNotes(){
     let whichOne=event.currentTarget;
-    whichOne.parentNode.parentNode.getElementById("newBoxHealth").style.display="none";
-    whichOne.parentNode.parentNode.getElementsById("newBoxNotes").style.display="block";
+    let targetBox=whichOne.parentNode.parentNode;
+    targetBox.getElementById("newBoxHealth").style.display="none";
+    targetBox.getElementsById("newBoxNotes").style.display="block";
 }
 //Function to show health block
 function showHealth(){
     let whichOne=event.currentTarget;
-    whichOne.parentNode.parentNode.getElementById("newBoxHealth").style.display="block";
-    whichOne.parentNode.parentNode.getElementById("newBoxNotes").style.display="none";
+    let targetBox=whichOne.parentNode.parentNode;
+    targetBox.getElementById("newBoxHealth").style.display="block";
+    targetBox.getElementById("newBoxNotes").style.display="none";
 
 }
+
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
