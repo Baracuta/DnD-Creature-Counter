@@ -20,7 +20,7 @@ function addCritter(){
             let newBoxHealth=document.createElement("input");
                 newBoxHealth.type="text";
                 newBoxHealth.className="critterHealth";
-            let newBoxNotes=document.createElement("div");
+            let newBoxNotes=document.createElement("input");
                 newBoxNotes.className="critterNotes";
             newBox.appendChild(newBoxName);
             newBox.appendChild(newBoxHealth);
@@ -29,9 +29,11 @@ function addCritter(){
                 newBoxButtons.className="critterButtons";
                 let newHealthButton=document.createElement("button");
                     newHealthButton.className="healthButton";
+                    newHealthButton.addEventListener("click",showHealth);
                     newBoxButtons.appendChild(newHealthButton);
                 let newNotesButton=document.createElement("button");
                     newNotesButton.className="notesButton";
+                    newNotesButton.addEventListener("click",showNotes);
                     newBoxButtons.appendChild(newNotesButton);
                 let newDeleteButton=document.createElement("button");
                     newDeleteButton.className="deleteButton";
@@ -56,6 +58,22 @@ function deleteBox(){
 }
 
 //Function to show a notes block
-
+function showNotes(){
+    let whichOne=event.currentTarget;
+    document.getElementsByClassName("critterBox");
+    let targetNotes=whichOne.parentNode.parentNode.newBoxNotes;
+    let targetHealth=whichOne.parentNode.parentNode.newBoxHealth;
+    targetNotes.style.display=("block");
+    targetHealth.style.display=("none");
+}
+//Function to show health block
+function showHealth(){
+    let whichOne=event.currentTarget;
+    document.getElementsByClassName("critterBox");
+    let targetHealth=whichOne.parentNode.parentNode.newBoxHealth;
+    let targetNotes=whichOne.parentNode.parentNode.newBoxNotes;
+    targetHealth.style.display=("block");
+    targetNotes.style.display=("none");
+}
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
