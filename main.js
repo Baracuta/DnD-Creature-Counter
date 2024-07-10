@@ -63,8 +63,8 @@ function showNotes(){
     document.getElementsByClassName("critterBox");
     let targetNotes=whichOne.parentNode.parentNode.newBoxNotes;
     let targetHealth=whichOne.parentNode.parentNode.newBoxHealth;
-    targetNotes.style.display=("block");
-    targetHealth.style.display=("none");
+    targetNotes.style.display="block";
+    targetHealth.style.display="none";
 }
 //Function to show health block
 function showHealth(){
@@ -72,8 +72,8 @@ function showHealth(){
     document.getElementsByClassName("critterBox");
     let targetHealth=whichOne.parentNode.parentNode.newBoxHealth;
     let targetNotes=whichOne.parentNode.parentNode.newBoxNotes;
-    targetHealth.style.display=("block");
-    targetNotes.style.display=("none");
+    targetHealth.style.display="block";
+    targetNotes.style.display="none";
 }
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
