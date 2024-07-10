@@ -61,8 +61,8 @@ function deleteBox(){
 function showNotes(){
     let whichOne=event.currentTarget;
     document.getElementsByClassName("critterBox");
-    let targetNotes=whichOne.parentNode.parentNode.newBoxNotes;
-    let targetHealth=whichOne.parentNode.parentNode.newBoxHealth;
+    let targetNotes=whichOne.parentNode.newBoxNotes;
+    let targetHealth=whichOne.parentNode.newBoxHealth;
     targetNotes.style.display="block";
     targetHealth.style.display="none";
 }
@@ -70,8 +70,8 @@ function showNotes(){
 function showHealth(){
     let whichOne=event.currentTarget;
     document.getElementsByClassName("critterBox");
-    let targetHealth=whichOne.parentNode.parentNode.newBoxHealth;
-    let targetNotes=whichOne.parentNode.parentNode.newBoxNotes;
+    let targetHealth=whichOne.parentNode.newBoxHealth;
+    let targetNotes=whichOne.parentNode.newBoxNotes;
     targetHealth.style.display="block";
     targetNotes.style.display="none";
 }
