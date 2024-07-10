@@ -61,14 +61,14 @@ function deleteBox(){
 //Function to show a notes block
 function showNotes(){
     let whichOne=event.currentTarget;
-    let targetBox=whichOne.parentNode.parentNode;
+    let targetBox=whichOne.parentNode;
     targetBox.newBoxHealth.style.display="none";
     targetBox.newBoxNotes.style.display="block";
 }
 //Function to show health block
 function showHealth(){
     let whichOne=event.currentTarget;
-    let targetBox=whichOne.parentNode.parentNode;
+    let targetBox=whichOne.parentNode;
     targetBox.newBoxHealth.style.display="block";
     targetBox.newBoxNotes.style.display="none";
 
