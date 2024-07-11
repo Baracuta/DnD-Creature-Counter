@@ -22,7 +22,7 @@ function addCritter(){
                 newBoxHealth.type="text";
                 newBoxHealth.className="critterHealth";
                 newBoxHealth.id="newBoxHealth"+currentBoxes;
-            let newBoxNotes=document.createElement("input");
+            let newBoxNotes=document.createElement("textarea");
                 newBoxNotes.className="critterNotes";
                 newBoxNotes.id="newBoxNotes"+currentBoxes;
             newBox.appendChild(newBoxName);
