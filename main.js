@@ -13,6 +13,7 @@ function addCritter(){
         currentBoxes=(currentBoxes+1);
         let newBox=document.createElement("div");
             newBox.className="critterBox";
+            newBox.id="critterBox"+currentBoxes;
             let newBoxID=newBox.id="critterBox"+currentBoxes;
             let newBoxName=document.createElement("input");
                 newBoxName.type="text";
@@ -27,7 +28,7 @@ function addCritter(){
                 function showNotes(){
                     let whichNotes=this.id;
                     console.log(whichNotes);
-
+                    
                 }
             newBox.appendChild(newBoxName);
             newBox.appendChild(newBoxHealth);
