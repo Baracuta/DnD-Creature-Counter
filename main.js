@@ -20,10 +20,10 @@ function addCritter(){
             let newBoxHealth=document.createElement("input");
                 newBoxHealth.type="text";
                 newBoxHealth.className="critterHealth";
-                newBoxHealth.id="newBoxHealth"
+                newBoxHealth.id="newBoxHealth"+currentBoxes;
             let newBoxNotes=document.createElement("input");
                 newBoxNotes.className="critterNotes";
-                newBoxNotes.id="newBoxNotes"
+                newBoxNotes.id="newBoxNotes"+currentBoxes;
             newBox.appendChild(newBoxName);
             newBox.appendChild(newBoxHealth);
             newBox.appendChild(newBoxNotes);
@@ -62,8 +62,8 @@ function deleteBox(){
 function showNotes(){
     let whichOne=event.currentTarget;
     let targetBox=whichOne.parentNode.parentNode;
-    let targetNotes=targetBox.getElementsByClassName("critterNotes");
-    let targetHealth=targetBox.getElementsByClassName("critterHealth");
+    let targetNotes=targetBox.className("critterNotes");
+    let targetHealth=targetBox.className("critterHealth");
     targetNotes.style.display="block";
     targetHealth.style.display="none";
 }
