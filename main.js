@@ -69,13 +69,12 @@ function showNotes(){
     targetHealth.style.display="none";
 }
 //Function to show health block
-//function showHealth(){
-  //  let whichOne=event.currentTarget;
-    //let targetBox=whichOne.parentNode;
-    //targetBox.newBoxHealth.style.display="block";
-    //targetBox.newBoxNotes.style.display="none";
+function showHealth(){
+    let whichOne=event.currentTarget;
+    let targetBox=whichOne.parentNode;
+    targetBox.newBoxHealth.style.display="block";
+    targetBox.newBoxNotes.style.display="none";
 
-//}
-
+}
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
