@@ -24,6 +24,11 @@ function addCritter(){
             let newBoxNotes=document.createElement("input");
                 newBoxNotes.className="critterNotes";
                 newBoxNotes.id="newBoxNotes"+currentBoxes;
+                function showNotes(){
+                    let whichOne=this.id;
+                    console.log(whichOne);
+                    whichOne.style.display="block";
+                }
             newBox.appendChild(newBoxName);
             newBox.appendChild(newBoxHealth);
             newBox.appendChild(newBoxNotes);
@@ -59,15 +64,7 @@ function deleteBox(){
 }
 
 //Function to show a notes block
-function showNotes(){
-    let whichOne=this.id;
-    console.log(whichOne);
-    let targetBox=whichOne.parentNode.parentNode;
-    let targetNotes=targetBox.getElementById("critterNotes");
-    let targetHealth=targetBox.getElementById("critterHealth");
-    targetNotes.style.display="block";
-    targetHealth.style.display="none";
-}
+
 //Function to show health block
 function showHealth(){
     let whichOne=event.currentTarget;
