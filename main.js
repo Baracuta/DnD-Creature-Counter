@@ -70,10 +70,11 @@ function showNotes(){
 }
 //Function to show health block
 function showHealth(){
-    let whichOne=event.currentTarget;
-    let targetBox=whichOne.parentNode;
-    targetBox.newBoxHealth.style.display="block";
-    targetBox.newBoxNotes.style.display="none";
+    console.log(this);
+    let targetBox=this.parentNode.parentNode;
+    console.log(targetBox);
+    targetBox.getElementsByClassName("critterHealth")[0].style.display="flex";
+    targetBox.getElementsByClassName("critterNotes")[0].style.display="none";
 
 }
 //Button Listeners
