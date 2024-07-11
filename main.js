@@ -62,8 +62,8 @@ function deleteBox(){
 function showNotes(){
     let whichOne=event.currentTarget;
     let targetBox=whichOne.parentNode.parentNode;
-    let targetNotes=targetBox.querySelector("newBoxNotes");
-    let targetHealth=targetBox.querySelector("newBoxHealth");
+    let targetNotes=targetBox.getElementsByClassName("critterNotes");
+    let targetHealth=targetBox.getElementsByClassName("critterHealth");
     targetNotes.style.display="block";
     targetHealth.style.display="none";
 }
