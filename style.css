@@ -1,5 +1,5 @@
 header{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:fantasy;
     border: solid black;
     background-color: black;
     color: white;
@@ -7,6 +7,7 @@ header{
     max-height: 6vh;
     padding-bottom: 5%;
     font-size: 40px;
+    font-weight: 600;
     text-align:center;
 }
 
