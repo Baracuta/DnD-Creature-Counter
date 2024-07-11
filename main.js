@@ -50,7 +50,6 @@ function addCritter(){
         stop;
     }
 }
-
 //Function to delete a critterBox
 function deleteBox(){
     let whichOne=event.currentTarget;
@@ -58,15 +57,13 @@ function deleteBox(){
     jsTable.removeChild(targetBox);
     currentBoxes=(currentBoxes-1);
 }
-
 //Function to show a notes block
 function showNotes(){
     console.log(this);
     let targetBox=this.parentNode.parentNode;
     console.log(targetBox);
     targetBox.getElementsByClassName("critterNotes")[0].style.display="flex";
-    targetBox.getElementsByClassName("critterHealth")[0].style.display="none";
-    
+    targetBox.getElementsByClassName("critterHealth")[0].style.display="none"; 
 }
 //Function to show health block
 function showHealth(){
@@ -75,7 +72,7 @@ function showHealth(){
     console.log(targetBox);
     targetBox.getElementsByClassName("critterHealth")[0].style.display="flex";
     targetBox.getElementsByClassName("critterNotes")[0].style.display="none";
-
 }
+
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
