@@ -64,8 +64,8 @@ function showNotes(){
     console.log(this);
     let targetBox=this.parentNode.parentNode;
     console.log(targetBox);
-    let targetNotes=targetBox.getElementsByClass("critterNotes");
-    console.log(targetNotes);
+    targetBox.getElementsByClass("critterNotes").style.display="flex";
+    targetBox.getElementsByClass("critterHealth").style.display="none";
     
 }
 //Function to show health block
