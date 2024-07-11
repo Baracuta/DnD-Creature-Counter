@@ -60,21 +60,22 @@ function deleteBox(){
 
 //Function to show a notes block
 function showNotes(){
-    let whichOne=event.currentTarget;
+    let whichOne=this.id;
+    console.log(whichOne);
     let targetBox=whichOne.parentNode.parentNode;
-    let targetNotes=targetBox.className("critterNotes");
-    let targetHealth=targetBox.className("critterHealth");
+    let targetNotes=targetBox.getElementById("critterNotes");
+    let targetHealth=targetBox.getElementById("critterHealth");
     targetNotes.style.display="block";
     targetHealth.style.display="none";
 }
 //Function to show health block
-function showHealth(){
-    let whichOne=event.currentTarget;
-    let targetBox=whichOne.parentNode;
-    targetBox.newBoxHealth.style.display="block";
-    targetBox.newBoxNotes.style.display="none";
+//function showHealth(){
+  //  let whichOne=event.currentTarget;
+    //let targetBox=whichOne.parentNode;
+    //targetBox.newBoxHealth.style.display="block";
+    //targetBox.newBoxNotes.style.display="none";
 
-}
+//}
 
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
