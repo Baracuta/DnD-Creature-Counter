@@ -25,9 +25,9 @@ function addCritter(){
                 newBoxNotes.className="critterNotes";
                 newBoxNotes.id="newBoxNotes"+currentBoxes;
                 function showNotes(){
-                    let whichOne=this.id;
-                    console.log(whichOne);
-                    whichOne.style.display="block";
+                    let whichNotes=this.id;
+                    console.log(whichNotes);
+
                 }
             newBox.appendChild(newBoxName);
             newBox.appendChild(newBoxHealth);
