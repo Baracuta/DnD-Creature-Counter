@@ -64,7 +64,7 @@ function showNotes(){
     console.log(this);
     let targetBox=this.parentNode.parentNode;
     console.log(targetBox);
-    let targetNotes=targetBox.closest("critterNotes");
+    let targetNotes=targetBox.getElementsByClass("critterNotes");
     console.log(targetNotes);
     
 }
