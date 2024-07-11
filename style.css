@@ -3,8 +3,8 @@ header{
     border: solid black;
     background-color: black;
     color: white;
-    max-height: 8vh;
-    padding-bottom: 2%;
+    max-height: 10vh;
+    padding-bottom: 5%;
 
     h1{
         font-size: 50px;
@@ -165,5 +165,5 @@ targetNotes{
 }
 
 targetHealth{
-    
+
 }
