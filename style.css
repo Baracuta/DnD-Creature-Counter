@@ -141,11 +141,13 @@ main{
         width: 80%;
         max-height: 30%;
         text-align:center;
+        background-color: gray;
     }
 
     .critterHealth{
         border: solid black;
         background-color: crimson;
+        color: whitesmoke;
         font-size: 40px;
         font-weight: bold;
         text-shadow: whitesmoke 2px;
@@ -157,5 +159,11 @@ main{
 
     .critterNotes{
         display: none;
+        text-align: left;
+        text-wrap: wrap;
+        width:80%;
+        height:30%;
+        max-height:30%;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
