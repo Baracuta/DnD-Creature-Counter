@@ -1,15 +1,15 @@
 header{
-    font-family:fantasy;
     border: solid black;
     background-color: black;
     color: white;
     height:5%;
     max-height: 5%;
-    font-size: 30px;
-    font-weight: 300;
-    letter-spacing: 5;
     text-align: center;
     vertical-align: middle;
+    font-size: 30px;
+    font-family:fantasy;
+    font-weight: 300;
+    letter-spacing: 3px;
 }
 
 body{
@@ -133,17 +133,16 @@ main{
     }
 
     .critterName{
-        font-size: 20px;
-        font-weight: bold;
-        letter-spacing: -1px;
-        font-family:fantasy;
         border-radius: 4%;
         width: 80%;
         max-height: 30%;
         text-align:center;
-        background-color: gray;
-        color: whitesmoke;
-        letter-spacing: 3px;
+        background-color: whitesmoke;
+        color: black;
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        letter-spacing: 2px;
     }
 
     .critterHealth{
@@ -170,8 +169,8 @@ main{
         height:30%;
         max-height:30%;
         font-size: 20px;
-        font-family: fantasy;
-        font-weight: 100;
-        letter-spacing: 3px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: normal;
+        letter-spacing: 2px;
     }
 }
