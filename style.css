@@ -3,11 +3,11 @@ header{
     border: solid black;
     background-color: black;
     color: white;
-    height:5%;
-    max-height: 6vh;
-    font-size: 40px;
+    height:min-content;
+    max-height: 10vh;
+    font-size: 30px;
     font-weight: 600;
-    letter-spacing: -1px;
+    letter-spacing: -1;
     text-align: center;
     vertical-align: middle;
 }
