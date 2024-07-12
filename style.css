@@ -3,11 +3,11 @@ header{
     border: solid black;
     background-color: black;
     color: white;
-    height:10%;
-    max-height: 10%;
+    height:5%;
+    max-height: 8%;
     font-size: 30px;
     font-weight: 300;
-    letter-spacing: -1;
+    letter-spacing: 5;
     text-align: center;
     vertical-align: middle;
 }
@@ -168,8 +168,9 @@ main{
         max-width:80%;
         height:30%;
         max-height:30%;
+        font-size: 10px;
         font-family: fantasy;
-        font-weight: 500;
-        letter-spacing: 10px;
+        font-weight: 300;
+        letter-spacing: 5px;
     }
 }
