@@ -2,8 +2,8 @@ header{
     border: solid black;
     background-color: black;
     color: white;
-    height:5%;
-    max-height: 5%;
+    height:5vh;
+    max-height: 5vh;
     text-align: center;
     vertical-align: middle;
     font-size: 35px;
