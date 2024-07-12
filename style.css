@@ -134,12 +134,13 @@ main{
     .critterName{
         font-size: 20px;
         font-weight: bold;
+        font-family: fantasy;
         text-shadow: whitesmoke 2px;
         border-radius: 4%;
         width: 80%;
         max-height: 30%;
         text-align:center;
-        background-color: rgb(59, 59, 59);
+        background-color: gray;
     }
 
     .critterHealth{
@@ -163,9 +164,10 @@ main{
         text-align: left;
         text-wrap: wrap;
         width:80%;
+        max-width:80%;
         height:30%;
         max-height:30%;
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 500;
+        font-family: fantasy;
+        font-weight: bolder;
     }
 }
