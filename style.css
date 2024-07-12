@@ -26,7 +26,9 @@ body{
     background-repeat: no-repeat;
     margin-left: 4%;
     margin-right:4%;
-    border: solid black;
+    border-left: solid black;
+    border-right: solid black;
+    border-top: solid black;
     border-width: 3px;
 }
 
@@ -36,6 +38,8 @@ main{
     height: 80vh;
     justify-content: flex-start;
     background-color: rgb(65, 65, 65);
+    border-bottom: solid black;
+    border-width: 3px;
 }
 
 .side_bar{
