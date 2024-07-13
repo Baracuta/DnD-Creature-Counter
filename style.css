@@ -157,12 +157,13 @@ main{
         border: solid black;
         background-color: crimson;
         color: whitesmoke;
-        font-size: 40px;
-        font-weight: 500;
         width: 80%;
         height:30%;
         max-height: 30%;
         text-align: center;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
     }
 
     .critterNotes{
