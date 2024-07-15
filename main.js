@@ -74,5 +74,7 @@ function showHealth(){
     targetBox.getElementsByClassName("critterNotes")[0].style.display="none";
 }
 
+//Function to Unlock critterBoxes
+
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
