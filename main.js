@@ -76,5 +76,7 @@ function showHealth(){
 
 //Function to Unlock critterBoxes
 
+
+//Function to Lock critterBoxes
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
