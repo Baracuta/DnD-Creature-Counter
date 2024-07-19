@@ -89,6 +89,7 @@ main{
     border-radius: 4%;
     background-color: gray;
     margin: 4px;
+    cursor: move;
 
     .critterButtons{
         border: solid black;
