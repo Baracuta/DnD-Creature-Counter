@@ -89,7 +89,7 @@ main{
     border-radius: 4%;
     background-color: gray;
     margin: 4px;
-    cursor: move;
+    cursor: none;
 
     .critterButtons{
         border: solid black;
@@ -179,7 +179,7 @@ main{
         max-width:80%;
         height:30%;
         max-height:30%;
-        font-size: 15%;
+        font-size: 30%;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
         letter-spacing: 1px;
