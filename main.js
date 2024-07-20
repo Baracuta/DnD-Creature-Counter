@@ -1,6 +1,10 @@
 //Global Variables
 //Get button that adds a new critterBox
 const jsAdd=document.getElementById("add_critter");
+//Get button that locks critterBoxes
+const jsLock=document.getElementById("lock_button");
+//Get button that unlocks critterBoxes
+const jsUnlock=document.getElementById("unlock_button");
 //Get the table that holds all critterBox instances
 let jsTable=document.getElementById("creature_table");
 //Variable that tracks the current number of critterBoxes
@@ -73,10 +77,16 @@ function showHealth(){
     targetBox.getElementsByClassName("critterHealth")[0].style.display="flex";
     targetBox.getElementsByClassName("critterNotes")[0].style.display="none";
 }
-
 //Function to Unlock critterBoxes
+function unlockBoxes(){
 
-
+}
 //Function to Lock critterBoxes
+function lockBoxes(){
+
+}
+
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
+jsUnlock.addEventListener("click", unlockBoxes);
+jsLock.addEventListener("click", lockBoxes);
