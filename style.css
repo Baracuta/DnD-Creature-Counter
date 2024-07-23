@@ -92,13 +92,10 @@ main{
     cursor:default;
 
     .critterButtons{
-        border: solid black;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(59, 59, 59);
-        border-radius: 5%;
         width: 80%;
         height:30%;
         max-height: 30%;
