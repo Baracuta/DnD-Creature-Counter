@@ -80,10 +80,14 @@ function showHealth(){
 //Function to Lock critterBoxes
 function lockBoxes(){
     jsAdd.disabled=true;
+    let allBoxes=document.getElementsByClassName("critterBox");
+    allBoxes.disabled=true;
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=false;
+    let allBoxes=document.getElementsByClassName("critterBox");
+    allBoxes.disabled=false;
 
 }
 
