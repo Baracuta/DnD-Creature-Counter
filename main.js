@@ -81,18 +81,18 @@ function showHealth(){
 function lockBoxes(){
     jsAdd.disabled=true;
     jsTable.style.opacity="1";
-    let boxInputs=document.querySelectorAll("input");
+    let boxInputs=document.querySelectorAll('input[type="text"]');
     boxInputs.disabled=false;
-    let boxButtons=document.querySelectorAll("button");
+    let boxButtons=document.querySelectorAll('button');
     boxButtons.disabled=false;
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=false;
     jsTable.style.opacity="0.5";
-    let boxInputs=document.querySelectorAll("input");
+    let boxInputs=document.querySelectorAll('input[type="text"]');
     boxInputs.disabled=true;
-    let boxButtons=document.querySelectorAll("button");
+    let boxButtons=document.querySelectorAll('button');
     boxButtons.disabled=true;
     jsLock.disabled=false;
 }
