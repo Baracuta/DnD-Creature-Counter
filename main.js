@@ -81,20 +81,13 @@ function showHealth(){
 function lockBoxes(){
     jsAdd.disabled=false;
     jsTable.style.opacity="1";
-    let boxInputs=document.getElementsByClassName('input[type="text"]');
-    boxInputs.disabled=false;
-    let boxButtons=document.getElementsByClassName('button');
-    boxButtons.disabled=false;
+    jsTable.style.pointerEvents="auto";
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=true;
     jsTable.style.opacity="0.5";
-    let boxInputs=document.getElementsByClassName('input[type="text"]');
-    boxInputs.disabled=true;
-    let boxButtons=document.getElementsByClassName('button');
-    boxButtons.disabled=true;
-    jsLock.disabled=false;
+    jsTable.style.pointerEvents="none";
 }
 
 //Button Listeners
