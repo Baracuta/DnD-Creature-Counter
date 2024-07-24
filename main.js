@@ -79,20 +79,20 @@ function showHealth(){
 }
 //Function to Lock critterBoxes
 function lockBoxes(){
-    jsAdd.disabled=true;
+    jsAdd.disabled=false;
     jsTable.style.opacity="1";
-    let boxInputs=document.querySelectorAll('input[type="text"]');
+    let boxInputs=document.getElementsByClassName('input[type="text"]');
     boxInputs.disabled=false;
-    let boxButtons=document.querySelectorAll('button');
+    let boxButtons=document.getElementsByClassName('button');
     boxButtons.disabled=false;
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
-    jsAdd.disabled=false;
+    jsAdd.disabled=true;
     jsTable.style.opacity="0.5";
-    let boxInputs=document.querySelectorAll('input[type="text"]');
+    let boxInputs=document.getElementsByClassName('input[type="text"]');
     boxInputs.disabled=true;
-    let boxButtons=document.querySelectorAll('button');
+    let boxButtons=document.getElementsByClassName('button');
     boxButtons.disabled=true;
     jsLock.disabled=false;
 }
