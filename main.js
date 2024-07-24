@@ -77,12 +77,12 @@ function showHealth(){
     targetBox.getElementsByClassName("critterHealth")[0].style.display="flex";
     targetBox.getElementsByClassName("critterNotes")[0].style.display="none";
 }
-//Function to Unlock critterBoxes
-function unlockBoxes(){
-
-}
 //Function to Lock critterBoxes
 function lockBoxes(){
+
+}
+//Function to Unlock critterBoxes
+function unlockBoxes(){
 
 }
 
