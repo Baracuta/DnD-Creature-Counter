@@ -22,7 +22,6 @@ body{
     background-image: url("Visual Resources/Fire GIF.gif");
     background-size: auto 50%;
     background-position: center;
-    background-color:rgb(48, 0, 0);
     background-repeat: no-repeat;
     margin-left: 4%;
     margin-right:4%;
@@ -70,6 +69,7 @@ main{
     min-width: 95%;
     min-height: 80%;
     background-image: url("Visual Resources/Emblem 1 3.png");
+    background-repeat: no-repeat;
 }
 
 #genericCritter{
