@@ -79,10 +79,11 @@ function showHealth(){
 }
 //Function to Lock critterBoxes
 function lockBoxes(){
-
+    jsAdd.disabled=true;
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
+    jsAdd.disabled=false;
 
 }
 
