@@ -80,27 +80,21 @@ function showHealth(){
 //Function to Lock critterBoxes
 function lockBoxes(){
     jsAdd.disabled=true;
-    jsTable.style.opacity="0.5";
-    let allBoxes=jsTable.getElementsByClassName("critterBox");
-    for (let i=0; i<allBoxes.length;i++){
-        let boxInputs=allBoxes.querySelectorAll("input");
-        boxInputs.disabled=true;
-        let boxButtons=allBoxes.querySelectorAll("button");
-        boxButtons.disabled=true;
-    }
-
+    jsTable.style.opacity="1";
+    let boxInputs=document.querySelectorAll("input");
+    boxInputs.disabled=false;
+    let boxButtons=document.querySelectorAll("button");
+    boxButtons.disabled=false;
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=false;
-    jsTable.style.opacity="1";
-    let allBoxes=jsTable.getElementsByClassName("critterBox");
-    for (let i=0; i<allBoxes.length;i++){
-        let boxInputs=allBoxes.querySelectorAll("input");
-        boxInputs.disabled=false;
-        let boxButtons=allBoxes.querySelectorAll("button");
-        boxButtons.disabled=false;
-    }
+    jsTable.style.opacity="0.5";
+    let boxInputs=document.querySelectorAll("input");
+    boxInputs.disabled=true;
+    let boxButtons=document.querySelectorAll("button");
+    boxButtons.disabled=true;
+    jsLock.disabled=false;
 }
 
 //Button Listeners
