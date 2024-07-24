@@ -88,65 +88,6 @@ main{
     margin: 4px;
     cursor:default;
 
-    .critterButtons{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        height:30%;
-        max-height: 30%;
-        img{
-            width: 65%;
-            justify-content: center;
-        }
-
-        .healthButton{
-            width: 65%;
-            height: 65%;
-            background-size: auto 100%;
-            align-items: center;
-            background-image:url("Visual Resources/Icons/heart-drop.png");
-            background-repeat: no-repeat;
-            background-color: black;
-            background-position: center;
-            cursor: pointer;
-            button:hover{
-                opacity: 0.4;
-            }
-        }
-
-        .notesButton{
-            width: 65%;
-            height: 65%;
-            background-size: auto 100%;
-            align-items: center;
-            background-image:url("Visual Resources/Icons/notebook.png");
-            background-repeat: no-repeat;
-            background-color: black;
-            background-position: center;
-            cursor: pointer;
-            button:hover{
-                opacity: 0.4;
-            }
-        }
-
-        .deleteButton{
-            width: 65%;
-            height: 65%;
-            background-size: auto 100%;
-            align-items: center;
-            background-image:url("Visual Resources/Icons/death-skull.png");
-            background-repeat: no-repeat;
-            background-color: black;
-            background-position: center;
-            cursor: pointer;
-            button:hover{
-                opacity: 0.4;
-            }
-        }
-    }
-
     .critterName{
         border-radius: 4%;
         width: 80%;
@@ -190,4 +131,58 @@ main{
         font-weight: bold;
         letter-spacing: 1px;
     }
+
+    .critterButtons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        height:30%;
+        max-height: 30%;
+        img{
+            width: 65%;
+            justify-content: center;
+        }
+        button:hover{
+            opacity: 0.4;
+        }
+
+        .healthButton{
+            width: 65%;
+            height: 65%;
+            background-size: auto 100%;
+            align-items: center;
+            background-image:url("Visual Resources/Icons/heart-drop.png");
+            background-repeat: no-repeat;
+            background-color: black;
+            background-position: center;
+            cursor: pointer;
+        }
+
+        .notesButton{
+            width: 65%;
+            height: 65%;
+            background-size: auto 100%;
+            align-items: center;
+            background-image:url("Visual Resources/Icons/notebook.png");
+            background-repeat: no-repeat;
+            background-color: black;
+            background-position: center;
+            cursor: pointer;
+        }
+
+        .deleteButton{
+            width: 65%;
+            height: 65%;
+            background-size: auto 100%;
+            align-items: center;
+            background-image:url("Visual Resources/Icons/death-skull.png");
+            background-repeat: no-repeat;
+            background-color: black;
+            background-position: center;
+            cursor: pointer;
+        }
+    }
+
 }
