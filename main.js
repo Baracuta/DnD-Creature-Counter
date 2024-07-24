@@ -80,14 +80,27 @@ function showHealth(){
 //Function to Lock critterBoxes
 function lockBoxes(){
     jsAdd.disabled=true;
-    jsTable.disabled=true;
     jsTable.style.opacity="0.5";
+    let allBoxes=jsTable.getElementsByClassName("critterBox");
+    for (let i=0; i<allBoxes.length;i++){
+        let boxInputs=allBoxes.querySelectorAll("input");
+        boxInputs.disabled=true;
+        let boxButtons=allBoxes.querySelectorAll("button");
+        boxButtons.disabled=true;
+    }
+
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=false;
-    jsTable.disabled=false;
     jsTable.style.opacity="1";
+    let allBoxes=jsTable.getElementsByClassName("critterBox");
+    for (let i=0; i<allBoxes.length;i++){
+        let boxInputs=allBoxes.querySelectorAll("input");
+        boxInputs.disabled=false;
+        let boxButtons=allBoxes.querySelectorAll("button");
+        boxButtons.disabled=false;
+    }
 }
 
 //Button Listeners
