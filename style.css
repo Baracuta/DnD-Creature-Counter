@@ -84,7 +84,8 @@ main{
     width: 23%;
     max-height: 33%;
     border-radius: 4%;
-    background-color: rgb(59, 59, 59);
+    background-color: rgba(59, 59, 59, 0.5);
+    
     margin: 4px;
     cursor:default;
 
