@@ -47,6 +47,10 @@ main{
 
     button{
         background-color: black;
+        cursor: pointer;
+        hover{
+            opacity: 40%;
+        }
     }
 
 }
@@ -106,6 +110,10 @@ main{
             background-repeat: no-repeat;
             background-color: black;
             background-position: center;
+            cursor: pointer;
+            hover{
+                opacity: 40%;
+            }
         }
 
         .notesButton{
@@ -117,6 +125,10 @@ main{
             background-repeat: no-repeat;
             background-color: black;
             background-position: center;
+            cursor: pointer;
+            hover{
+                opacity: 40%;
+            }
         }
 
         .deleteButton{
@@ -128,6 +140,10 @@ main{
             background-repeat: no-repeat;
             background-color: black;
             background-position: center;
+            cursor: pointer;
+            hover{
+                opacity: 40%;
+            }
         }
     }
 
