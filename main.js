@@ -81,14 +81,17 @@ function showHealth(){
 function lockBoxes(){
     jsAdd.disabled=true;
     let allBoxes=document.getElementsByClassName("critterBox");
-    allBoxes.disabled=true;
+    for (let i=0; i<allBoxes.length;i++){
+        allBoxes.disabled=true;
+    }
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=false;
     let allBoxes=document.getElementsByClassName("critterBox");
-    allBoxes.disabled=false;
-
+        for (let i=0; i<allBoxes.length;i++){
+            allBoxes.disabled=false;
+        }
 }
 
 //Button Listeners
