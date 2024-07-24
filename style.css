@@ -1,6 +1,4 @@
 header{
-    border: solid black;
-    background-color: black;
     min-height: 5vh;
     height:min-content;
     max-height: 8vh;
@@ -25,10 +23,6 @@ body{
     background-repeat: no-repeat;
     margin-left: 4%;
     margin-right:4%;
-    border-left: solid black;
-    border-right: solid black;
-    border-top: solid black;
-    border-width: 3px;
 }
 
 main{
@@ -41,7 +35,7 @@ main{
 .side_bar{
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     height: fit-content;
     max-width: 4%;
