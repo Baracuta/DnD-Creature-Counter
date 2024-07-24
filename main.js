@@ -80,18 +80,14 @@ function showHealth(){
 //Function to Lock critterBoxes
 function lockBoxes(){
     jsAdd.disabled=true;
-    let allBoxes=document.getElementsByClassName("critterBox");
-    for (let i=0; i<allBoxes.length;i++){
-        allBoxes.disabled=true;
-    }
+    jsTable.disabled=true;
+    jsTable.style.opacity="0.5";
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=false;
-    let allBoxes=document.getElementsByClassName("critterBox");
-        for (let i=0; i<allBoxes.length;i++){
-            allBoxes.disabled=false;
-        }
+    jsTable.disabled=false;
+    jsTable.style.opacity="1";
 }
 
 //Button Listeners
