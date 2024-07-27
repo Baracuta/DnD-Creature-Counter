@@ -96,3 +96,12 @@ jsUnlock.addEventListener("click", unlockBoxes);
 jsLock.addEventListener("click", lockBoxes);
 
 //Going to test all of the draggable content down here
+function enableDrag(){
+    let allBoxes=document.querySelectorAll(".critterBox");
+    allBoxes.addEventListener("dragstart",runTest);
+
+}
+
+function runTest(){
+    console.log(this);
+}
