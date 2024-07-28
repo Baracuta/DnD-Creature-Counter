@@ -21,6 +21,7 @@ function addCritter(){
             newBox.className="critterBox";
             newBox.id="critterBox"+currentBoxes;
             newBox.addEventListener("dragstart",enableDrag);
+            newBox.draggable="true";
             let newBoxID=newBox.id="critterBox"+currentBoxes;
             let newBoxName=document.createElement("input");
                 newBoxName.type="text";
