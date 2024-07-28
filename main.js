@@ -107,7 +107,7 @@ function unlockBoxes(){
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable=true;
-        allBoxes[i].addEventListener("dragstart",console.log(this.id));
+        allBoxes[i].addEventListener("dragstart",runTest);
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=true;
@@ -125,16 +125,6 @@ jsUnlock.addEventListener("click", unlockBoxes);
 jsLock.addEventListener("click", lockBoxes);
 
 //Going to test all of the draggable content down here
-function enableDrag(){
-    if (allowDrag=true){
-        runTest;
-    }
-    else{
-        console.log("Nope");
-    }
-
-}
-
 function runTest(){
     console.log(this);
 }
