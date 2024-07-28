@@ -87,6 +87,10 @@ function lockBoxes(){
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable=false;
+        let boxElements=allBoxes[i].childNodes;
+        for (let t=0;t<boxElements.length;t++){
+            boxElements[t].style.pointerEvents="auto";
+        }
     }
 }
 //Function to Unlock critterBoxes
@@ -96,6 +100,10 @@ function unlockBoxes(){
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable=true;
+        let boxElements=allBoxes[i].childNodes;
+        for (let t=0;t<boxElements.length;t++){
+            boxElements[t].style.pointerEvents="none";
+        }
     }
 }
 
