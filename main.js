@@ -89,7 +89,7 @@ function lockBoxes(){
         allBoxes[i].draggable=false;
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
-            boxElements[t].style.pointerEvents="auto";
+            boxElements[t].disabled=false;
         }
     }
 }
@@ -102,7 +102,7 @@ function unlockBoxes(){
         allBoxes[i].draggable=true;
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
-            boxElements[t].style.pointerEvents="none";
+            boxElements[t].disabled=true;
         }
     }
 }
