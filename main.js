@@ -92,7 +92,7 @@ function lockBoxes(){
 function unlockBoxes(){
     jsAdd.disabled=true;
     jsTable.style.opacity="0.5";
-    jsTable.style.pointerEvents="none";
+    jsTable.style.pointerEvents="auto";
     let allowDrag=true;
 }
 
