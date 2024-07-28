@@ -83,6 +83,7 @@ function showHealth(){
 //Function to Lock critterBoxes
 function lockBoxes(){
     jsAdd.disabled=false;
+    jsAdd.style.backgroundColor="black";
     jsTable.style.opacity="1";
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
@@ -101,6 +102,7 @@ function lockBoxes(){
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=true;
+    jsAdd.style.backgroundColor="crimson";
     jsTable.style.opacity="0.5";
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
