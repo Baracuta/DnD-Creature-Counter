@@ -87,7 +87,7 @@ function lockBoxes(){
     jsTable.style.opacity="1";
     jsTable.style.pointerEvents="auto";
     allowDrag=false;
-    document.querySelectorAll(".critterBox").draggable="false";
+    document.getElementsByClassName("critterBox").draggable="false";
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
@@ -95,7 +95,7 @@ function unlockBoxes(){
     jsTable.style.opacity="0.5";
     jsTable.style.pointerEvents="auto";
     allowDrag=true;
-    document.querySelectorAll(".critterBox").draggable="true";
+    document.getElementsByClassName("critterBox").draggable="true";
 }
 
 //Button Listeners
