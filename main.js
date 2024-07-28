@@ -20,7 +20,7 @@ function addCritter(){
         let newBox=document.createElement("div");
             newBox.className="critterBox";
             newBox.id="critterBox"+currentBoxes;
-            newBox.addEventListener("dragstart",enableDrag);
+            newBox.addEventListener("dragend",enableDrag);
             newBox.draggable="true";
             let newBoxID=newBox.id="critterBox"+currentBoxes;
             let newBoxName=document.createElement("input");
@@ -86,7 +86,7 @@ function lockBoxes(){
     jsAdd.disabled=false;
     jsTable.style.opacity="1";
     jsTable.style.pointerEvents="auto";
-    let allowDrag=false;
+    allowDrag=false;
     document.querySelectorAll(".critterBox").draggable="false";
 }
 //Function to Unlock critterBoxes
@@ -94,7 +94,7 @@ function unlockBoxes(){
     jsAdd.disabled=true;
     jsTable.style.opacity="0.5";
     jsTable.style.pointerEvents="auto";
-    let allowDrag=true;
+    allowDrag=true;
     document.querySelectorAll(".critterBox").draggable="true";
 }
 
