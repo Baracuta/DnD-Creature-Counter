@@ -9,6 +9,8 @@ const jsUnlock=document.getElementById("unlock_button");
 let jsTable=document.getElementById("creature_table");
 //Variable that tracks the current number of critterBoxes
 let currentBoxes=0
+//Variable that determines whether or not enableDrag will run
+let allowDrag=false;
 
 //Functions for Buttons
 //Add a new critter
@@ -18,6 +20,7 @@ function addCritter(){
         let newBox=document.createElement("div");
             newBox.className="critterBox";
             newBox.id="critterBox"+currentBoxes;
+            newBox.addEventListener("dragstart",enableDrag);
             let newBoxID=newBox.id="critterBox"+currentBoxes;
             let newBoxName=document.createElement("input");
                 newBoxName.type="text";
@@ -82,13 +85,14 @@ function lockBoxes(){
     jsAdd.disabled=false;
     jsTable.style.opacity="1";
     jsTable.style.pointerEvents="auto";
+    let allowDrag=false;
 }
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=true;
     jsTable.style.opacity="0.5";
     jsTable.style.pointerEvents="none";
-    enableDrag();
+    let allowDrag=true;
 }
 
 //Button Listeners
@@ -98,8 +102,12 @@ jsLock.addEventListener("click", lockBoxes);
 
 //Going to test all of the draggable content down here
 function enableDrag(){
-    let allBoxes=document.querySelectorAll(".critterBox");
-    allBoxes.addEventListener("dragstart",runTest);
+    if (allowDrag=true){
+        runTest;
+    }
+    else{
+        console.log("Nope");
+    }
 
 }
 
