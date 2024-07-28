@@ -9,6 +9,8 @@ const jsUnlock=document.getElementById("unlock_button");
 let jsTable=document.getElementById("creature_table");
 //Variable that tracks the current number of critterBoxes
 let currentBoxes=0
+//Variable that returns all current critterBoxes
+let allBoxes=jsTable.childNodes
 
 //Functions for Buttons
 //Add a new critter
@@ -19,7 +21,6 @@ function addCritter(){
             newBox.className="critterBox";
             newBox.id="critterBox"+currentBoxes;
             newBox.addEventListener("dragend",enableDrag);
-            newBox.draggable="true";
             let newBoxID=newBox.id="critterBox"+currentBoxes;
             let newBoxName=document.createElement("input");
                 newBoxName.type="text";
@@ -83,7 +84,7 @@ function showHealth(){
 function lockBoxes(){
     jsAdd.disabled=false;
     jsTable.style.opacity="1";
-    let allBoxes=jsTable.childNodes;
+    allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable="false";
     }
@@ -93,7 +94,7 @@ function lockBoxes(){
 function unlockBoxes(){
     jsAdd.disabled=true;
     jsTable.style.opacity="0.5";
-    let allBoxes=jsTable.childNodes;
+    allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable="true";
     }
