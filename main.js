@@ -87,8 +87,7 @@ function lockBoxes(){
     jsTable.style.opacity="1";
     jsTable.style.pointerEvents="auto";
     allowDrag=false;
-    let allBoxes=document.getElementsByClassName("critterBox");
-    allBoxes.draggable="false";
+    jsTable.children.draggable="false";
 
 }
 //Function to Unlock critterBoxes
@@ -97,8 +96,7 @@ function unlockBoxes(){
     jsTable.style.opacity="0.5";
     jsTable.style.pointerEvents="auto";
     allowDrag=true;
-    let allBoxes=document.getElementsByClassName("critterBox");
-    allBoxes.draggable="true";
+    jsTable.children.draggable="true";
 }
 //Button Listeners
 jsAdd.addEventListener("click", addCritter);
