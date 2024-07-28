@@ -93,6 +93,7 @@ function lockBoxes(){
             let boxButtons=boxElements[i].childNodes;
             for (let x=0;x<boxButtons.length;x++){
                 boxButtons[x].disabled=false;
+                boxButtons[x].style.hover.opacity="0.4";
             }
         }
 
@@ -111,6 +112,7 @@ function unlockBoxes(){
             let boxButtons=boxElements[i].childNodes;
             for (let x=0;x<boxButtons.length;x++){
                 boxButtons[x].disabled=true;
+                boxButtons[x].style.hover.opacity="1";
             }
         }
     }
