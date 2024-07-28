@@ -88,6 +88,7 @@ function unlockBoxes(){
     jsAdd.disabled=true;
     jsTable.style.opacity="0.5";
     jsTable.style.pointerEvents="none";
+    enableDrag();
 }
 
 //Button Listeners
