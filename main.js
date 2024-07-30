@@ -91,7 +91,7 @@ function lockBoxes(){
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=false;
-            let boxButtons=boxElements[i].childNodes;
+            let boxButtons=boxElements[3].childNodes;
             for (let x=0;x<boxButtons.length;x++){
                 boxButtons[x].disabled=false;
             }
@@ -111,7 +111,7 @@ function unlockBoxes(){
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=true;
-            let boxButtons=boxElements[i].childNodes;
+            let boxButtons=boxElements[3].childNodes;
             for (let x=0;x<boxButtons.length;x++){
                 boxButtons[x].disabled=true;;
             }
