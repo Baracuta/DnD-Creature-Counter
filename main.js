@@ -83,7 +83,6 @@ function lockBoxes(){
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable=false;
-        allBoxes[i].droppab;e
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=false;
