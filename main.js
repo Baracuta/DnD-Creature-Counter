@@ -121,14 +121,15 @@ jsUnlock.addEventListener("click", unlockBoxes);
 jsLock.addEventListener("click", lockBoxes);
 
 //Going to test all of the draggable content down here
+//This lets me know the information I want is being accessed
 function runTest(){
     console.log(this);
 }
-
+//This picks up the information from the critterBox that starts the drag
 function startSwap(){
 
 }
-
+//This drops the information off and switches it with the old one
 function finishSwap(){
 
 }
