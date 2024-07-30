@@ -20,7 +20,6 @@ function addCritter(){
         let newBox=document.createElement("div");
             newBox.className="critterBox";
             newBox.id="critterBox"+currentBoxes;
-            newBox.addEventListener("dragend",runTest);
             let newBoxID=newBox.id="critterBox"+currentBoxes;
             let newBoxName=document.createElement("input");
                 newBoxName.type="text";
@@ -66,17 +65,13 @@ function deleteBox(){
 }
 //Function to show a notes block
 function showNotes(){
-    console.log(this);
     let targetBox=this.parentNode.parentNode;
-    console.log(targetBox);
     targetBox.getElementsByClassName("critterNotes")[0].style.display="flex";
     targetBox.getElementsByClassName("critterHealth")[0].style.display="none"; 
 }
 //Function to show health block
 function showHealth(){
-    console.log(this);
     let targetBox=this.parentNode.parentNode;
-    console.log(targetBox);
     targetBox.getElementsByClassName("critterHealth")[0].style.display="flex";
     targetBox.getElementsByClassName("critterNotes")[0].style.display="none";
 }
@@ -88,6 +83,7 @@ function lockBoxes(){
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable=false;
+        allBoxes[i].droppab;e
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=false;
