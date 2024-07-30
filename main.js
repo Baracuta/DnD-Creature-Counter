@@ -101,10 +101,9 @@ function unlockBoxes(){
     jsTable.style.opacity="0.5";
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
-        allBoxes[i].draggable=true;
-        allBoxes[i].ondrop="drop(event)";
-        allBoxes[i].ondragover="allowDrop(event)";
-        allBoxes[i].addEventListener("dragstart",runTest);
+        allBoxes[i].draggable=true;;
+        allBoxes[i].addEventListener("dragstart",runTest, startSwap);
+        allBoxes[i].addEventListener("dragend", runTest, finishSwap);
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=true;
@@ -126,11 +125,10 @@ function runTest(){
     console.log(this);
 }
 
-function allowDrop(event){
-    event.preventDefault();
+function startSwap(){
+
 }
-function drop(event){
-    event.preventDefault();
-    let data=event.dataTransfer.getData("input");
-    event.target.appendChild(document.getElementById(data));
+
+function finishSwap(){
+
 }
