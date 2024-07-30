@@ -127,9 +127,13 @@ function runTest(){
 }
 //This picks up the information from the critterBox that starts the drag
 function startSwap(){
-
+    let boxOne=this;
 }
 //This drops the information off and switches it with the old one
 function finishSwap(){
+    let tempBox=null+boxOne;
+    let boxTwo=this;
+    boxOne=boxTwo;
+    boxTwo=tempBox;
 
 }
