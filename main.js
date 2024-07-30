@@ -8,9 +8,15 @@ const jsUnlock=document.getElementById("unlock_button");
 //Get the table that holds all critterBox instances
 let jsTable=document.getElementById("creature_table");
 //Variable that tracks the current number of critterBoxes
-let currentBoxes=0
-//Variable that returns all current critterBoxes
-let allBoxes=jsTable.childNodes
+let currentBoxes=0;
+//Variable for all current critterBoxes
+let allBoxes=jsTable.childNodes;
+//First box in swap
+let boxOne=null;
+//Temporary box in swap
+let tempBox=null;
+//Second box in swap
+let boxTwo=null;
 
 //Functions for Buttons
 //Add a new critter
@@ -127,13 +133,12 @@ function runTest(){
 }
 //This picks up the information from the critterBox that starts the drag
 function startSwap(){
-    let boxOne=this;
+    boxOne=this;
 }
 //This drops the information off and switches it with the old one
 function finishSwap(){
-    let tempBox=null+boxOne;
-    let boxTwo=this;
-    boxOne=boxTwo;
-    boxTwo=tempBox;
-
+    tempBox=null+boxOne;
+    boxTwo=this;
+    boxOne.replaceWith(boxTwo);
+    boxTwo.replaceWith(tempBox);
 }
