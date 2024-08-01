@@ -109,7 +109,6 @@ function unlockBoxes(){
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable=true;;
         allBoxes[i].addEventListener("dragstart",runTest, startSwap);
-        allBoxes[i].addEventListener("dragend", runTest, finishSwap);
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=true;
@@ -134,6 +133,7 @@ function runTest(){
 //This picks up the information from the critterBox that starts the drag
 function startSwap(){
     boxOne=this;
+    boxOne.addEventListener("dragend", runTest, finishSwap);
 }
 //This drops the information off and switches it with the old one
 function finishSwap(){
