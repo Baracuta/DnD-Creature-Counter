@@ -133,7 +133,7 @@ function runTest(){
 //This picks up the information from the critterBox that starts the drag
 function startSwap(){
     boxOne=this;
-    boxOne.addEventListener("dragend", runTest, finishSwap);
+    boxOne.addEventListener("dragend",finishSwap);
 }
 //This drops the information off and switches it with the old one
 function finishSwap(){
