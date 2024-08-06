@@ -108,7 +108,7 @@ function unlockBoxes(){
     allBoxes=jsTable.childNodes;
     for (let i=0;i<allBoxes.length;i++){
         allBoxes[i].draggable=true;;
-        allBoxes[i].addEventListener("dragstart",runTest, startSwap);
+        allBoxes[i].addEventListener("click",runTest, startSwap);
         let boxElements=allBoxes[i].childNodes;
         for (let t=0;t<boxElements.length;t++){
             boxElements[t].disabled=true;
