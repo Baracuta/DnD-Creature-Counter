@@ -145,3 +145,4 @@ function finishSwap(){
 //Divswap
 //Figure out how to change the order of divs
 //Maybe just axe the divswap functionality until far future?
+//Yeah, focus on getting the visual aesthetic down and looking hot
