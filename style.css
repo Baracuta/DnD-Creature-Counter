@@ -47,7 +47,7 @@ main{
         align-self: center;
         vertical-align: center;
     }
-
+    
     button{
         background-color: black;
         cursor: pointer;
@@ -55,6 +55,15 @@ main{
     button:hover{
         opacity: 0.4;
     }
+
+    #lock_button{
+        display: none;
+    }
+
+    #unlock_button{
+        display: none;
+    }
+    
 
 }
 
