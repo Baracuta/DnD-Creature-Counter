@@ -162,7 +162,7 @@ main{
         }
 
         button{
-            border-radius: 5;
+            border-radius: 5px;
         }
 
         .healthButton{
