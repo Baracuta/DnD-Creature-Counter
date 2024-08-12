@@ -104,7 +104,7 @@ main{
     cursor:default;
 
     .critterName{
-        border-radius: 4%;
+        border-radius: 5px;
         width: 80%;
         max-height: 30%;
         text-align:center;
