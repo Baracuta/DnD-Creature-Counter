@@ -51,7 +51,7 @@ main{
     button{
         background-color: black;
         cursor: pointer;
-        border-radius: 10px;
+        border-radius: 5px;
         outline-style: none;
     }
     button:hover{
@@ -165,7 +165,7 @@ main{
         }
 
         button{
-            border-radius: 10px;
+            border-radius: 8px;
             outline-style: none;
         }
 
