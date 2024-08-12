@@ -53,6 +53,7 @@ main{
         cursor: pointer;
         border-radius: 5px;
         outline-style: none;
+        border-style: none;
     }
     button:hover{
         opacity: 0.4;
@@ -167,6 +168,7 @@ main{
         button{
             border-radius: 8px;
             outline-style: none;
+            border-style: none;
         }
 
         .healthButton{
