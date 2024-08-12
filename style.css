@@ -148,7 +148,7 @@ main{
     .critterButtons{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         width: 80%;
         height:30%;
@@ -159,6 +159,10 @@ main{
         }
         button:hover{
             opacity: 0.4;
+        }
+
+        button{
+            border-radius: 5;
         }
 
         .healthButton{
