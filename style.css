@@ -118,6 +118,7 @@ main{
 
     .critterHealth{
         border: solid black;
+        border-radius: 10px;
         background-color: rgb(131, 2, 28);
         color: whitesmoke;
         width: 80%;
