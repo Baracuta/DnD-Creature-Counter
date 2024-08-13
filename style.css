@@ -166,7 +166,7 @@ main{
         }
 
         button{
-            border-radius: 5px;
+            border-radius: 10px;
             outline-style: none;
             border-style: none;
         }
