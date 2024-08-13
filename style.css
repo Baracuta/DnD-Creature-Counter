@@ -6,7 +6,8 @@ header{
     justify-content: space-around;
 
     img{
-        height: 50% 50% auto;
+        height: 50%;
+        width: 20%;
     }
     
     h1{
