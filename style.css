@@ -176,7 +176,8 @@ main{
         button{
             border-radius: 10px;
             outline-style: none;
-            border-style: none;
+            border-color: white;
+            /*if bad, add border-style:none; back*/
         }
 
         .healthButton{
