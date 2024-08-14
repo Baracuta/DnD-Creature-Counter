@@ -66,7 +66,9 @@ function addCritter(){
 function deleteBox(){
     let whichOne=event.currentTarget;
     let targetBox=whichOne.parentNode.parentNode;
-    jsTable.removeChild(targetBox);
+    targetBox.style.borderColor="white";
+    setTimeout(
+    jsTable.removeChild(targetBox),1000);
     currentBoxes=(currentBoxes-1);
 }
 //Function to show a notes block
