@@ -71,7 +71,7 @@ function beginDelete(){
         jsTable.removeChild(targetBox);
         currentBoxes=(currentBoxes-1);
     }
-    setTimeout(deleteBox,1000);
+    setTimeout(deleteBox,500);
 }
 //Function to show a notes block
 function showNotes(){
