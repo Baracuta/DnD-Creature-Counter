@@ -108,7 +108,7 @@ main{
     max-height: 33%;
     border-radius: 4%;
     background-color: rgba(59, 59, 59, 0.5);
-    position: absolute;
+    position: fixed;
     margin: 4px;
     cursor:default;
 
