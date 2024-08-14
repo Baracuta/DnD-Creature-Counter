@@ -57,6 +57,7 @@ function addCritter(){
                     newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
+        newBox.style.position="absolute";
     }
     else{
         stop;
