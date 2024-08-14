@@ -53,7 +53,7 @@ function addCritter(){
                 let newDeleteButton=document.createElement("button");
                     newDeleteButton.className="deleteButton";
                     newDeleteButton.id="deleteButton"+currentBoxes;
-                    newDeleteButton.addEventListener("click",deleteBox);
+                    newDeleteButton.addEventListener("click",beginDelete);
                     newBoxButtons.appendChild(newDeleteButton);
             newBox.appendChild(newBoxButtons);
         jsTable.appendChild(newBox);
@@ -62,12 +62,15 @@ function addCritter(){
         stop;
     }
 }
-//Function to delete a critterBox
-function deleteBox(){
+//Functions to delete a critterBox
+function beginDelete(){
     let whichOne=event.currentTarget;
     let targetBox=whichOne.parentNode.parentNode;
     targetBox.style.borderColor="white";
-    setTimeout((jsTable.removeChild(targetBox)),1000);
+    setTimeout(deleteBox,1000);
+}
+function deleteBox(){
+    jsTable.removeChild(targetBox);
     currentBoxes=(currentBoxes-1);
 }
 //Function to show a notes block
