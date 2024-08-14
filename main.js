@@ -62,16 +62,16 @@ function addCritter(){
         stop;
     }
 }
-//Functions to delete a critterBox
+//Function to delete a critterBox
 function beginDelete(){
     let whichOne=event.currentTarget;
     let targetBox=whichOne.parentNode.parentNode;
     targetBox.style.borderColor="white";
+    function deleteBox(){
+        jsTable.removeChild(targetBox);
+        currentBoxes=(currentBoxes-1);
+    }
     setTimeout(deleteBox,1000);
-}
-function deleteBox(){
-    jsTable.removeChild(targetBox);
-    currentBoxes=(currentBoxes-1);
 }
 //Function to show a notes block
 function showNotes(){
