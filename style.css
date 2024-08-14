@@ -3,7 +3,7 @@ header{
     height:min-content;
     max-height: 8vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     img{
         height: 8vh;
