@@ -95,7 +95,7 @@ main{
     display: none;
 }
 .critterBox{
-    border: solid black;
+    border: solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
