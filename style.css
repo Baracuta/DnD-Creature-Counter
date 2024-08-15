@@ -143,7 +143,8 @@ main{
 
     .critterNotes{
         display: none;
-        border: solid black;
+        border: solid white;
+        border-radius: 10px;
         background-color:black;
         color: whitesmoke;
         text-align: left;
