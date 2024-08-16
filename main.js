@@ -85,6 +85,22 @@ function showHealth(){
     targetBox.getElementsByClassName("critterHealth")[0].style.display="flex";
     targetBox.getElementsByClassName("critterNotes")[0].style.display="none";
 }
+
+
+//Button Listeners
+jsAdd.addEventListener("click", addCritter);
+jsUnlock.addEventListener("click", unlockBoxes);
+jsLock.addEventListener("click", lockBoxes);
+
+
+
+//Beyond this point is incomplete code for future planned features.
+
+//This lets me know the information I want is being accessed
+function runTest(){
+    console.log(this);
+}
+
 //Function to Lock critterBoxes
 function lockBoxes(){
     jsAdd.disabled=false;
@@ -104,6 +120,7 @@ function lockBoxes(){
 
     }
 }
+
 //Function to Unlock critterBoxes
 function unlockBoxes(){
     jsAdd.disabled=true;
@@ -124,16 +141,6 @@ function unlockBoxes(){
     }
 }
 
-//Button Listeners
-jsAdd.addEventListener("click", addCritter);
-jsUnlock.addEventListener("click", unlockBoxes);
-jsLock.addEventListener("click", lockBoxes);
-
-//Going to test all of the draggable content down here
-//This lets me know the information I want is being accessed
-function runTest(){
-    console.log(this);
-}
 //This picks up the information from the critterBox that starts the drag
 function startSwap(){
     boxOne=this;
@@ -146,7 +153,3 @@ function finishSwap(){
     boxOne.replaceWith(boxTwo);
     boxTwo.replaceWith(tempBox);
 }
-//Divswap
-//Figure out how to change the order of divs
-//Maybe just axe the divswap functionality until far future?
-//Yeah, focus on getting the visual aesthetic down and looking hot
