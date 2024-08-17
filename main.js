@@ -6,7 +6,7 @@ const jsLock=document.getElementById("lock_button");
 //Get button that unlocks critterBoxes
 const jsUnlock=document.getElementById("unlock_button");
 //Get the table that holds all critterBox instances
-let jsTable=document.getElementById("creature_table");
+let jsTable=document.getElementById("critterTable");
 //Variable that tracks the current number of critterBoxes
 let currentBoxes=0;
 //Variable for all current critterBoxes

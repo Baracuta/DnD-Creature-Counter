@@ -78,7 +78,7 @@ main{
 
 }
 
-#creature_table{
+#critterTable{
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
@@ -178,8 +178,7 @@ main{
         button{
             border-radius: 10px;
             outline-style: none;
-            border-color: white;
-            /*if bad, add border-style:none; back*/
+            border-style:none;
         }
 
         .healthButton{
