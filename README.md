@@ -1,7 +1,7 @@
-# DnD-Creature-Counter
+# RPG-Creature-Counter
 
 ## Overview
-A tool I can use to track multiple creatures at a glance when playing Dungeons and Dragons.
+A tool I can use to track multiple creatures at a glance when playing table-top role-playing games.
 
 ## Description
 The idea is this: a tool which I can use and access as a webpage that gives me multiple input criteria. Things like attacks, the damage of the attack, various modifiers, all that stuff that is necessary to track for certain monsters, with the ability to track multiple of each critter I add. That way, I can easily track multiple creatures at once. Their hit-point values, Armour Class, etc. I'd be able to roll dice for them.
